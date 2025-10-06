@@ -1,35 +1,24 @@
-# Problem Definition Framework: Employee Retention and Loyalty
+# Problem Definition Framework
 
-## X → Y Framework
-### Current State (X - Current Retention Challenges)
-- Average turnover rate of 18% for Millennials and 20% for Gen Z employees
-- 49% of employees would leave their current role for better development opportunities
-- Only 31% of employees report feeling highly engaged at work
-- Replacement costs ranging from 50% to 200% of annual salary per departure
-- 65% of employees seeking new jobs due to lack of growth opportunities
-- 73% of Gen Z workers prioritize work-life balance over traditional benefits
+## Problem Focus and Statement (400 words)
 
-### Relationship Factors (→)
-- Modern workplace expectations vs. traditional structures
-- Remote/hybrid work flexibility and effectiveness
-- Career advancement speed and transparency
-- Work-life integration capabilities
-- Purpose-driven work alignment
-- Personal development opportunities
-- Mental health and wellness support
-- Competitive compensation packages
+Modern organizations face increasing difficulty retaining younger employees who view
+frequent job changes as normal rather than risky. With average turnover rates of 18%
+for Millennials and 20% for Gen Z employees, companies are experiencing significant
+operational and financial impacts. Current data shows that 49% of employees would 
+leave their current role for better development opportunities, while only 31% report
+feeling highly engaged at work. This challenge is compounded by replacement costs 
+ranging from 50% to 200% of annual salary per departure, averaging $4,129 per 
+employee (SHRM, 2024).
 
-### Desired State (Y - Optimal Retention Outcomes)
-- Retention rates improved to industry top-quartile (85%+ annually)
-- Employee engagement scores increased to 75% or higher
-- Modern loyalty programs aligned with generational values
-- Training costs reduced by 40% through retention
-- Clear career progression paths for all roles
-- 80% internal promotion rate for key positions
-- Top employer brand rating in industry surveys
-- Knowledge management systems implemented
+The core issue extends beyond mere turnover numbers, as 65% of employees are actively
+seeking new jobs due to lack of growth opportunities, and 73% of Gen Z workers
+prioritize work-life balance over traditional benefits. This shift in workforce
+values and expectations requires a fundamental reimagining of employee retention
+strategies, as conventional loyalty incentives no longer effectively maintain
+workforce stability and engagement.
 
-## PICOC Framework
+## Key Framework: PICOC Analysis
 ### Population (P)
 - Primary: Millennial and Gen Z employees (ages 25-40)
 - Focus: High-potential talent and key role holders
