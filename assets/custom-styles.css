@@ -1,0 +1,371 @@
+/* === CSS CUSTOM PROPERTIES === */
+:root {
+    /* Gamma Phi Beta Colors */
+    --gpb-brown: #8B4513;
+    --gpb-pink: #FFB6C1;
+    --gpb-dark-brown: #654321;
+    --gpb-light-brown: #A0522D;
+    --gpb-dark-pink: #FF69B4;
+    --gpb-light-pink: #FFF0F5;
+    
+    /* UI Elements */
+    --primary-gradient: linear-gradient(135deg, var(--gpb-brown) 0%, var(--gpb-dark-brown) 100%);
+    --secondary-gradient: linear-gradient(135deg, var(--gpb-pink) 0%, var(--gpb-dark-pink) 100%);
+    --tab-active: var(--gpb-pink);
+    --tab-inactive: var(--gpb-brown);
+    --border-radius: 15px;
+    --transition-speed: 0.3s;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: #FFB6C1;  /* Blush pink background */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.6;
+    color: #8B4513;  /* Brown text */
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.97);
+    box-shadow: 0 10px 30px rgba(139, 69, 19, 0.2);
+    border-radius: var(--border-radius);
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 1200px;
+}
+
+/* Add a subtle shimmer effect */
+body::after {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+        145deg,
+        transparent,
+        rgba(255, 255, 255, 0.1)
+    );
+    pointer-events: none;
+    z-index: 0;
+}
+
+.header {
+    background: var(--primary-gradient);
+    color: var(--gpb-pink);
+    padding: 20px;
+    border-radius: var(--border-radius) var(--border-radius) 0 0;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 1.2em;
+    opacity: 0.9;
+}
+
+.student-info {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    font-size: 0.9em;
+}
+
+/* === SIMPLE TAB SYSTEM === */
+.tab-nav {
+    display: flex;
+    background: #ecf0f1;
+    border-bottom: 3px solid #bdc3c7;
+}
+
+.tab-button {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    background: var(--tab-inactive);
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: all var(--transition-speed);
+    border: none;
+    border-right: 2px solid white;
+}
+
+.tab-button:last-child {
+    border-right: none;
+}
+
+.tab-button:hover {
+    background: #7f8c8d;
+    transform: translateY(-2px);
+}
+
+.tab-button.active {
+    background: var(--tab-active);
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(46, 204, 113, 0.3);
+}
+
+.tab-content {
+    position: relative;
+    min-height: 500px;
+}
+
+.tab-panel {
+    display: none;
+    padding: 40px;
+    animation: fadeIn 0.3s ease-in;
+}
+
+.tab-panel.active {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateX(20px); }
+    to { opacity: 1; transform: translateX(0); }
+}
+
+/* === FLOWCHART STYLING === */
+.flowchart-step {
+    background: #8B4513; /* Brown background */
+    color: #FFB6C1; /* Pink text */
+    padding: 15px 25px;
+    border-radius: 25px;
+    margin: 15px 0;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(139, 69, 19, 0.3);
+}
+
+.content-file-preview {
+    border: 1px solid var(--gpb-pink);
+    border-radius: var(--border-radius);
+    padding: 15px;
+    margin: 10px 0;
+    transition: var(--transition-speed);
+}
+
+.content-file-preview:hover {
+    background: rgba(255, 182, 193, 0.1);
+    border-color: var(--gpb-brown);
+}
+
+.content-file-preview h4 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.edit-notice {
+    background: #fff3cd;
+    border: 1px solid #ffeaa7;
+    color: #856404;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    font-size: 0.8em;
+}
+
+.evidence-type {
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 0.9em;
+}
+
+.scientific { background: var(--gpb-brown); color: var(--gpb-pink); }
+.practitioner { background: var(--gpb-dark-brown); color: var(--gpb-pink); }
+.organizational { background: var(--gpb-pink); color: var(--gpb-brown); }
+.stakeholder { background: var(--gpb-light-pink); color: var(--gpb-brown); }
+
+.evidence-section {
+    margin: 40px 0;
+    padding: 25px;
+    border-left: 5px solid #ddd;
+    background: #fafafa;
+    border-radius: 10px;
+}
+
+.evidence-section h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    display: inline-block;
+}
+
+.milestone-tracker {
+    background: var(--gpb-light-pink);
+    border-left: 4px solid var(--gpb-brown);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.milestone-tracker h4 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.checklist {
+    list-style: none;
+    padding: 0;
+}
+
+.checklist li {
+    padding: 5px 0;
+    color: #555;
+}
+
+.checklist li:before {
+    content: "☐ ";
+    color: #3498db;
+    font-weight: bold;
+}
+
+/* Links */
+a {
+    color: var(--gpb-brown);
+    text-decoration: none;
+    transition: var(--transition-speed);
+}
+
+a:hover {
+    color: var(--gpb-pink);
+}
+
+/* Form Elements */
+input, textarea, select {
+    border: 2px solid var(--gpb-pink);
+    border-radius: var(--border-radius);
+    padding: 8px;
+}
+
+input:focus, textarea:focus, select:focus {
+    border-color: var(--gpb-brown);
+    outline: none;
+}
+
+/* Tables */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    background: var(--gpb-brown);
+    color: var(--gpb-pink);
+}
+
+tr:nth-child(even) {
+    background: var(--gpb-light-pink);
+}
+
+td, th {
+    padding: 12px;
+    border: 1px solid var(--gpb-pink);
+}
+
+/* Progress Indicator Styles */
+.progress-indicator {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    margin: 0;
+    border-bottom: 3px solid #dee2e6;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.progress-step {
+    flex: 1;
+    text-align: center;
+    padding: 12px 8px;
+    margin: 0 5px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 0.9em;
+    transition: all var(--transition-speed);
+    position: relative;
+    cursor: pointer;
+}
+
+.progress-step.completed {
+    background: var(--gpb-brown);
+    color: var(--gpb-pink);
+}
+
+.progress-step.active {
+    background: var(--gpb-pink);
+    color: var(--gpb-brown);
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
+}
+
+.progress-step.pending {
+    background: #bdc3c7;
+    color: white;
+}
+
+.progress-step::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -15px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.progress-step.completed::after {
+    border-left-color: #FFB6C1;
+}
+
+.progress-step.active::after {
+    border-left-color: #8B4513;
+}
+
+.progress-step.pending::after {
+    border-left-color: #bdc3c7;
+}
+
+.progress-step:last-child::after {
+    display: none;
+}
+
+.btn {
+    background: var(--secondary-gradient);
+    color: var(--gpb-brown);
+    border: none;
+    padding: 10px 20px;
+    border-radius: var(--border-radius);
+    transition: var(--transition-speed);
+}
+
+.btn:hover {
+    background: var(--primary-gradient);
+    color: var(--gpb-pink);
+}
