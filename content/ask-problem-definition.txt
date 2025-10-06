@@ -76,7 +76,12 @@
 - Economic uncertainty impact
 
 ## Clear Problem Statement
-Modern organizations face increasing difficulty retaining younger employees who view frequent job changes as normal rather than risky. Millennials and Gen Z prioritize growth, flexibility, and work-life balance over long-term loyalty, leading to higher turnover and rising recruitment costs. Companies must now find new strategies to build employee commitment and satisfaction in a workforce where traditional loyalty incentives no longer work.
+Modern organizations face increasing difficulty retaining younger employees who view
+frequent job changes as normal rather than risky. Millennials and Gen Z prioritize
+growth, flexibility, and work-life balance over long-term loyalty, leading to 
+higher turnover and rising recruitment costs. Companies must now find new strategies
+to build employee commitment and satisfaction in a workforce where traditional 
+loyalty incentives no longer work.
 
 ## Why This Problem Matters
 ### Financial Impact
