@@ -86,6 +86,14 @@ body::after {
     font-size: 0.9em;
 }
 
+/* Repository link style */
+.student-info .repo-link {
+    font-size: 0.75em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 /* === SIMPLE TAB SYSTEM === */
 .tab-nav {
     display: flex;
