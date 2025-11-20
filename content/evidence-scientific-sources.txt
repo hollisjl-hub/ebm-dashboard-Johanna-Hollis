@@ -2,151 +2,200 @@
 # Document and summarize the research studies you found
 
 ## Evidence Summary Overview
-**Total Studies Reviewed:** [Number]
-**Date Range of Studies:** [Earliest to most recent]
-**Geographic Scope:** [Countries/regions represented]
-**Quality Level:** [Overall assessment: High/Medium/Low]
+**Total Studies Reviewed:** 6 primary studies (5 large-scale empirical studies + 1 systematic literature review)
+**Date Range of Studies:** 2022-2025 (systematic review covers 2019-2022 literature; empirical studies 2023-2025)
+**Geographic Scope:** Global (U.S., Europe, Asia-Pacific, 44 countries) with emphasis on developed economies; systematic review draws from international research
+**Quality Level:** High - all studies feature large sample sizes (11,250 to 23,000+ respondents for surveys, millions for BLS data), rigorous methodology, credible research organizations, and peer-reviewed/reputable sources
 
-## Study 1: [Title or Brief Description]
+## Study 1: Gallup Millennials in the Workplace Study
 ### Citation
-[Full academic citation in APA format]
+Adkins, A. (2025). Millennials: The Job-Hopping Generation. Gallup Workplace. Retrieved November 20, 2025, from https://www.gallup.com/workplace/231587/millennials-job-hopping-generation.aspx
 
 ### Study Overview
-- **Research Design:** [Type of study - RCT, cohort, cross-sectional, etc.]
-- **Sample Size:** [Number of participants/organizations]
-- **Population:** [Who was studied?]
-- **Setting:** [Where was the study conducted?]
-- **Duration:** [How long was the study period?]
+- **Research Design:** Large-scale national survey with cross-generational comparison
+- **Sample Size:** National representative sample of U.S. workers
+- **Population:** Millennials (born 1980-1996) compared with non-millennial workers
+- **Setting:** U.S. workplace across multiple industries
+- **Duration:** Part of ongoing Gallup workplace engagement tracking
 
 ### Key Findings
 #### Related to Your Problem
-[What did this study find about your type of problem?]
+Millennials demonstrate significantly higher turnover rates than other generations. Twenty-one percent (21%) of millennials changed jobs within the past year—more than three times the rate of non-millennials. Gallup estimates that millennial turnover costs the U.S. economy $30.5 billion annually. Only 50% of millennials strongly agree they plan to be working at their company one year from now, compared to 60% of non-millennials. This suggests that half of the millennial workforce doesn't see a future with their current employer. Sixty percent (60%) of millennials are open to different job opportunities, 15 percentage points higher than non-millennials, and 36% will actively look for a new job if the market improves.
 
 #### Related to Your Solution
-[What did this study find about your type of solution?]
+Low engagement is a key driver of turnover. Only 29% of millennials are engaged at work—emotionally and behaviorally connected to their job and company. Sixteen percent (16%) are actively disengaged. The majority (55%) are not engaged, simply putting in their hours without energy or passion. The research suggests that many millennials don't necessarily want to switch jobs, but their companies aren't giving them compelling reasons to stay. When they see better opportunities, they have every incentive to take them because they're seeking a job that feels worthwhile.
 
 #### Important Statistics/Results
-[Specific numbers, effect sizes, confidence intervals]
+- 21% of millennials changed jobs in past year (vs. 7% for non-millennials)
+- $30.5 billion annual cost of millennial turnover to U.S. economy
+- 29% millennial engagement rate (lowest of all generations)
+- 60% of millennials open to new opportunities
+- 55% of millennials "not engaged" at work
 
 ### Relevance Assessment
-- **Problem Relevance:** [High/Medium/Low - why?]
-- **Solution Relevance:** [High/Medium/Low - why?]
-- **Context Similarity:** [How similar to your situation?]
+- **Problem Relevance:** High - directly addresses millennial turnover and provides quantitative data on the scale of the problem
+- **Solution Relevance:** High - identifies engagement as the primary mechanism through which retention can be improved
+- **Context Similarity:** High - U.S.-based data applicable to most organizational contexts
 
 ---
 
-## Study 2: [Title or Brief Description]
+## Study 2: Deloitte 2025 Gen Z and Millennial Survey
 ### Citation
-[Full academic citation in APA format]
+Deloitte. (2025). 2025 Gen Z and Millennial Survey: Growth and the pursuit of money, meaning, and well-being. Deloitte Global. Retrieved November 20, 2025, from https://www.deloitte.com/global/en/issues/work/genz-millennial-survey.html
 
 ### Study Overview
-- **Research Design:** [Type of study]
-- **Sample Size:** [Number of participants/organizations]
-- **Population:** [Who was studied?]
-- **Setting:** [Where was the study conducted?]
-- **Duration:** [How long was the study period?]
+- **Research Design:** 14th annual global survey tracking generational workplace trends longitudinally
+- **Sample Size:** 23,000+ respondents
+- **Population:** Gen Z and Millennials born between 1983 and 2006
+- **Setting:** 44 countries globally
+- **Duration:** Longitudinal study now in its 14th year (data collection 2025)
 
 ### Key Findings
 #### Related to Your Problem
-[What did this study find about your type of problem?]
+Both generations prioritize work-life balance over traditional career advancement—only 6% of Gen Z say reaching a leadership position is their primary career goal. Financial insecurity is rising, with 48% of Gen Z and 46% of millennials reporting they don't feel financially secure (up from previous year). However, career progression remains important despite not being motivated by leadership positions. These generations are reevaluating what success means to them in a rapidly changing workplace.
 
 #### Related to Your Solution
-[What did this study find about your type of solution?]
+Learning and development ranks in the top three reasons for choosing an employer for both generations. However, many feel their managers are missing the mark on development needs—they want guidance, inspiration, and mentorship, not just task oversight. The research identifies a "trifecta" of workplace priorities: money, meaning, and wellbeing. About 90% of both Gen Z (89%) and millennials (92%) consider a sense of purpose important to job satisfaction and wellbeing. Among those with positive mental wellbeing, 67% of Gen Z and 72% of millennials feel their job allows them to make meaningful contributions, compared to only 44-46% of those with poor mental wellbeing. Three-quarters of both generations believe GenAI will impact how they work within a year, and they're focused on developing both technical skills and soft skills like empathy and leadership.
 
 #### Important Statistics/Results
-[Specific numbers, effect sizes, confidence intervals]
+- 48% of Gen Z and 46% of millennials don't feel financially secure
+- 89% of Gen Z and 92% of millennials say purpose is important to job satisfaction
+- Only 6% of Gen Z aim for leadership positions as primary career goal
+- Learning and development in top 3 reasons for choosing employer
+- 67-72% of those with positive wellbeing feel they make meaningful contributions (vs. 44-46% with poor wellbeing)
 
 ### Relevance Assessment
-- **Problem Relevance:** [High/Medium/Low - why?]
-- **Solution Relevance:** [High/Medium/Low - why?]
-- **Context Similarity:** [How similar to your situation?]
+- **Problem Relevance:** High - comprehensive data on what drives younger generations' career decisions
+- **Solution Relevance:** High - identifies specific factors (learning, purpose, wellbeing) that improve retention
+- **Context Similarity:** High - global dataset applicable across industries and regions
 
 ---
 
-## Study 3: [Title or Brief Description]
+## Study 3: National Institute on Retirement Security - Debunking the Job-Hopping Myth
 ### Citation
-[Full academic citation in APA format]
+Doonan, D., & National Institute on Retirement Security. (2025). Debunking the Job-Hopping Myth: A Data-Driven Look at Tenure and Turnover Among Younger Workers. National Institute on Retirement Security. Retrieved November 20, 2025, from https://www.nirsonline.org/articles/new-research-debunks-job-hopping-myth-about-millennials-and-gen-z/
 
 ### Study Overview
-- **Research Design:** [Type of study]
-- **Sample Size:** [Number of participants/organizations]
-- **Population:** [Who was studied?]
-- **Setting:** [Where was the study conducted?]
-- **Duration:** [How long was the study period?]
+- **Research Design:** Analysis of U.S. Bureau of Labor Statistics longitudinal data with cross-generational comparisons
+- **Sample Size:** BLS national employment data covering millions of workers
+- **Population:** Workers aged 25-34 in 2024 (Millennials and Gen Z) compared to same age cohort from Baby Boomers (1983) and Gen X
+- **Setting:** U.S. workforce across all sectors
+- **Duration:** Longitudinal comparison spanning 40+ years (1983-2024)
 
 ### Key Findings
 #### Related to Your Problem
-[What did this study find about your type of problem?]
+This study challenges the "job-hopping" narrative. Workers aged 25-34 in 2024 had a median job tenure of 2.7 years, only slightly lower than Baby Boomers at the same age in 1983. The research finds that younger workers have always changed jobs more often than older workers as they find their career path—this was true for Baby Boomers and Gen X, and remains true today. Economic conditions rather than generational attitudes drive worker turnover. Quit rates rise during strong economies and fall during recessions, as seen during the 2008 Great Recession and 2020 pandemic. Industry differences significantly shape job stability, with manufacturing jobs (traditionally offering stronger benefits) showing higher retention than retail and professional services.
 
 #### Related to Your Solution
-[What did this study find about your type of solution?]
+The real drivers of turnover are economic conditions, benefits, and job opportunities—not generational characteristics. Public sector employees have significantly lower quit rates due to more widespread access to pensions and healthcare benefits. This suggests that comprehensive benefits packages are effective retention tools. The research emphasizes that policymakers and employers should design retirement and benefit programs based on economic realities rather than generational stereotypes.
 
 #### Important Statistics/Results
-[Specific numbers, effect sizes, confidence intervals]
+- Median tenure for ages 25-34 in 2024: 2.7 years (vs. Baby Boomers at same age in 1983)
+- Public sector quit rates significantly lower due to better benefits
+- Turnover driven by economic cycles, not generational personality
+- Manufacturing (with better benefits) shows higher retention than retail/services
 
 ### Relevance Assessment
-- **Problem Relevance:** [High/Medium/Low - why?]
-- **Solution Relevance:** [High/Medium/Low - why?]
-- **Context Similarity:** [How similar to your situation?]
+- **Problem Relevance:** High - uses objective employment data to contextualize turnover patterns
+- **Solution Relevance:** High - demonstrates that benefits and economic factors, not generational traits, drive retention
+- **Context Similarity:** High - U.S. national data applicable across organizational types
 
 ---
 
 ## Additional Studies Summary
 [For studies 4+, you can use shorter summaries]
 
-### Study 4: [Brief title]
-- **Citation:** [Short citation]
-- **Key Finding:** [Most important result]
-- **Relevance:** [Why this matters to your problem/solution]
+### Study 4: Randstad Gen Z Workplace Blueprint
+- **Citation:** van 't Noordende, S., & Randstad. (2025). Gen Z workplace blueprint: Future focused, fast moving. Randstad Global. Retrieved November 20, 2025, from https://www.randstad.com/press/2025/genz-workplace-blueprint/
+- **Key Finding:** Gen Z's average job tenure in first five years is 1.1 years (vs. 1.8 for Millennials, 2.8 for Gen X, 2.9 for Baby Boomers). However, this isn't job-hopping—it's "growth-hunting." One in three Gen Z workers plans to change jobs within the next year, primarily citing lack of career progression (second only to pay). Entry-level job postings have declined 29 percentage points since January 2024, limiting traditional pathways. Only 45% hold traditional full-time roles, while 31% of employed Gen Z prefer combining full-time work with side hustles. Fifty-two percent (52%) are actively looking for new roles, but only 11% plan to stay in current jobs long-term. Notably, 41% of Gen Z always consider long-term goals when making job decisions—higher than any other generation. Industries like IT, healthcare, and financial services show stronger retention where roles align with long-term goals. The tech industry has net gains of 70% from Gen Z (for every 100 who leave other industries, 70 move into tech).
+- **Relevance:** Extremely high—demonstrates that short tenure reflects unmet ambition rather than disloyalty. Shows that providing clear development paths increases retention. Based on survey of 11,250 workers across 15 markets plus analysis of 126 million job postings.
 
-### Study 5: [Brief title]
-- **Citation:** [Short citation]
-- **Key Finding:** [Most important result]
-- **Relevance:** [Why this matters to your problem/solution]
+### Study 5: Business Insider Analysis - Gen Z and the Gig Economy Mindset
+- **Citation:** Tangalakis-Lippert, K. (2025, June). Gen Z is bringing the gig economy to corporate America. Business Insider. Retrieved November 20, 2025, from https://www.businessinsider.com/gen-z-gig-economy-mindset-corporate-america-2025-6
+- **Key Finding:** More than half of Gen Z professionals took freelance positions in 2023 rather than traditional jobs (Upwork survey). Gen Z prefers dynamic, flexible roles that allow specialized skill development and career control. Executive coaches report Gen Z considers six months at a job reasonable before moving on (vs. five years for previous generations). In recent research, Gen Z was most likely generation to seek assignments that help them grow quickly, even outside job descriptions—nearly 40% value experience over stability. They view themselves as "free agents building a portfolio of skills" and pursue "career design" rather than traditional advancement. They want impact over titles. Benefits preferences also reflect flexibility—companies with best retention offer optional perks like gym memberships, childcare, and services at Gen Z's request. Some companies are adapting by hiring Gen Z as contractors or using "Tiger Teams" with rapid project rotation (86% of Gen Z want mentorship per Deloitte).
+- **Relevance:** High for understanding mentality shift. Provides qualitative context for quantitative findings. Shows successful retention strategies require flexibility, variety, and skill-building opportunities.
+
+### Study 6: Hudiono & Sari Systematic Literature Review
+- **Citation:** Hudiono, E., & Sari, R. L. (2022). Retaining millennial employees in the workplace: A literature review. Journal of Business Studies and Management Review, 6(1), 32-37. https://doi.org/10.22437/jbsmr.v6i1.22224
+- **Key Finding:** Systematic review of 73 articles (narrowed to 5 studies from 2019-2022 via inclusion criteria) identified key factors influencing millennial turnover intention. Primary factors are: (1) psychological contract violations—when expectations don't match reality, turnover increases; (2) work-life balance—consistent with other research showing critical importance; (3) job characteristics including task variety and knowledge utilization—boring/repetitive work increases turnover; (4) work fulfillment—feeling accomplished and that work matters; (5) quality of relationships with colleagues—social connections retain employees. The review emphasizes that understanding these factors allows organizations to formulate targeted retention strategies. Notably, psychological contract violations (unmet expectations) emerged as particularly important—when organizations fail to deliver what they promise during recruitment, millennial turnover spikes.
+- **Relevance:** Very high—provides systematic academic synthesis confirming factors identified in industry research. The psychological contract finding is especially valuable, suggesting that whatever retention strategies are chosen must be authentically implemented (not just marketing). Relationship quality adds social dimension not emphasized in other sources.
 
 ## Cross-Study Analysis
 
 ### Consistent Findings
-[What do multiple studies agree on?]
+Multiple studies converge on several key points about younger generation workplace behavior and effective retention strategies.
 
 #### About the Problem
-[Common findings about your type of problem]
+All six sources confirm that younger workers (Millennials and Gen Z) have higher turnover rates and shorter job tenure than older generations. However, the NIRS study importantly contextualizes this: when comparing same-age cohorts, current 25-34 year-olds have similar tenure (2.7 years) to Baby Boomers at the same age. This suggests life stage matters more than generation per se. Nevertheless, Gallup's finding of 21% annual turnover among millennials (vs. 7% non-millennials) and Randstad's data showing Gen Z average tenure of only 1.1 years in early career years demonstrates a real challenge. The consistent finding across studies is that low engagement drives turnover—Gallup found only 29% of millennials are engaged, while Deloitte found that those without purpose and wellbeing are significantly more likely to leave. The Hudiono & Sari (2022) systematic review adds that **psychological contract violations**—when reality doesn't match expectations set during recruitment—are a particularly strong driver of turnover.
 
 #### About Solutions
-[Common findings about effective solutions]
+Studies consistently identify several retention factors with remarkable convergence: 
+
+(1) **Career development and learning opportunities**—Deloitte found this in top 3 employer choice factors, Randstad found lack of progression is second biggest reason for leaving after pay, Business Insider reported Gen Z prioritizes growth assignments, and Hudiono & Sari identified job characteristics including task variety and knowledge utilization as critical.
+
+(2) **Purpose and meaning**—Deloitte found ~90% of both generations say purpose is important to satisfaction, wellbeing strongly correlates with feeling work is meaningful, and the systematic review identified work fulfillment as a key factor.
+
+(3) **Work-life balance and flexibility**—Deloitte found only 6% of Gen Z prioritize leadership roles because they prioritize balance, Randstad found Gen Z prefers variety and side hustles, Business Insider documented preference for gig-style flexibility, and Hudiono & Sari confirmed work-life balance as critical retention factor.
+
+(4) **Benefits and compensation**—NIRS found public sector workers with better benefits have significantly lower quit rates, demonstrating tangible retention impact, while Deloitte documented rising financial insecurity (48-46%).
+
+(5) **Manager quality and mentorship**—Deloitte found employees want guidance and mentorship not just oversight, Business Insider found 86% want mentorship, and managers spend only 13% of time on development.
+
+(6) **Relationship quality**—The Hudiono & Sari systematic review uniquely emphasizes quality of relationships with colleagues as a retention factor, adding the social/relational dimension.
+
+(7) **Authentic implementation**—The systematic review's emphasis on psychological contract violations highlights that retention strategies must be genuinely delivered, not just promised during recruitment.
 
 ### Conflicting Evidence
-[Where do studies disagree?]
+There is some tension in the findings that merits attention.
 
 #### Nature of Conflicts
-[What are the disagreements about?]
+The "job-hopping" narrative itself is contested. Gallup and Randstad present data showing genuinely high turnover and very short tenures (1.1-2.7 years), framing this as a significant organizational challenge. However, NIRS directly challenges this narrative, arguing that when properly controlled for age and economic conditions, current young workers don't actually job-hop more than previous generations did at the same life stage. Another tension exists around motivation: Gallup emphasizes low engagement as the problem, while Randstad and Business Insider reframe short tenure as "growth-hunting" or "career design"—suggesting high ambition rather than disengagement drives mobility.
 
 #### Possible Explanations
-[Why might studies disagree?]
+These differences likely reflect different analytical lenses. NIRS uses longitudinal BLS data comparing same-age cohorts across decades, which controls for life-stage effects. Gallup compares current millennials to current non-millennials of all ages, mixing generational and life-stage effects. Both can be true: young workers have always had higher turnover, AND current economic conditions (post-pandemic labor market, declining entry-level roles, AI disruption) may be amplifying it. The engagement vs. ambition framing may reflect that SOME young workers leave due to disengagement while OTHERS leave to pursue growth—these aren't mutually exclusive. The Deloitte finding that financial insecurity is rising (48-46% don't feel financially secure) adds economic pressure beyond pure generational preference.
 
 ### Evidence Gaps
-[What questions remain unanswered by current research?]
+Several important questions remain underaddressed in current research.
+
+What remains unanswered: (1) Causal mechanisms—do learning opportunities directly reduce turnover, or do they work through engagement? (2) Cost-benefit analysis—what is the ROI of different retention interventions? (3) Industry-specific patterns—Randstad notes variation (tech has 70% net gains, implying other sectors have net losses), but more granular industry analysis would help. (4) Long-term trajectories—will Gen Z tenure patterns change as they age, or does early-career mobility predict continued mobility? (5) Intersection with remote work—how do hybrid/remote policies interact with retention for these generations? (6) Efficacy of specific interventions—experimental or quasi-experimental studies testing specific retention programs are lacking.
 
 ## Synthesis for Decision Making
 
 ### Strength of Evidence
-**For Problem Existence:** [Strong/Moderate/Weak evidence]
-**For Solution Effectiveness:** [Strong/Moderate/Weak evidence]
+**For Problem Existence:** Strong evidence—multiple large-scale studies with tens of thousands of respondents confirm higher turnover and shorter tenure among younger workers, low engagement rates, and specific workplace priorities that differ from older generations.
+
+**For Solution Effectiveness:** Moderate to Strong evidence—consistent identification of key retention factors (development, purpose, flexibility, benefits, mentorship) across studies, but limited experimental evidence directly testing interventions. NIRS provides strong evidence that benefits reduce turnover. Deloitte's longitudinal tracking and Randstad's large sample provide strong correlational evidence for other factors.
 
 ### Key Insights for Your Situation
-[What does the research collectively tell you?]
+The research collectively paints a clear picture of both the challenge and potential solutions for millennial and Gen Z retention.
 
 #### Problem-Related Insights
-[What research says about your problem]
+Your organization faces a genuine retention challenge with younger employees, but it's important to frame it correctly. The data shows 21% annual turnover for millennials (Gallup) and average 1.1-year tenure for Gen Z in early career (Randstad), which is costly ($30.5 billion annually economy-wide per Gallup). However, this isn't primarily about "disloyal" young workers—it's about unmet needs. Only 29% of millennials are engaged at work (Gallup), suggesting most are "checked out." The NIRS research provides important context: young workers have always changed jobs more frequently, but current economic conditions (declining entry-level opportunities, financial insecurity, rapid AI-driven changes) may amplify this natural tendency. The Deloitte finding that 48-46% don't feel financially secure adds urgency—financial stress compounds other dissatisfactions.
 
 #### Solution-Related Insights
-[What research says about your proposed solution]
+The research converges on a multi-dimensional retention strategy. First, career development is critical—learning opportunities rank in top 3 employer choice factors (Deloitte), and lack of progression is the second-biggest reason for leaving after pay (Randstad). Nearly 40% of Gen Z actively seek growth assignments (Business Insider). Second, purpose and meaning matter enormously—~90% say this is important to satisfaction (Deloitte), and those with positive wellbeing are 20+ percentage points more likely to feel their work is meaningful. Third, flexibility and work-life balance are non-negotiable priorities—only 6% of Gen Z aim for traditional leadership roles because they prioritize balance (Deloitte), and many prefer hybrid arrangements combining multiple roles (Randstad). Fourth, comprehensive benefits packages demonstrably reduce turnover—public sector workers with better benefits have significantly lower quit rates (NIRS). Fifth, quality management and mentorship are essential—86% want mentorship (Deloitte via Business Insider), but many feel managers only provide task oversight rather than development.
 
 #### Implementation Considerations
-[What research suggests about how to implement]
+Research suggests several implementation insights. Younger workers view careers as "portfolios of skills" rather than linear progressions (Business Insider), so offering diverse project experiences (like "Tiger Teams" with rotation) may be more effective than traditional career ladders. They're "growth-hunting" not job-hopping (Randstad), meaning short-term assignments that build marketable skills can increase retention even if they seem counterintuitive. The finding that 41% of Gen Z always consider long-term goals (Randstad)—higher than other generations—suggests they're actually quite strategic, not impulsive. Industries that align roles with long-term goals (IT, healthcare, financial services) show stronger retention. The Deloitte "trifecta" framework is useful: interventions must address money (competitive pay, financial security), meaning (purpose-aligned work, impact opportunities), and wellbeing (mental health support, flexibility) simultaneously. Isolated programs addressing only one dimension may be insufficient.
 
 ### Research-Based Recommendations
-[What does the scientific evidence suggest you should do?]
+Based on the scientific evidence, organizations should implement a comprehensive retention strategy with the following elements:
+
+1. **Prioritize Career Development Infrastructure:** Create formal learning and development programs with dedicated time (Deloitte found this in top 3 employer choice factors). Implement mentorship programs pairing younger employees with experienced colleagues—86% want this. Offer diverse project experiences through rotational programs or "Tiger Teams" to build varied skills. Provide both technical training (including AI/emerging tech) and soft skills development.
+
+2. **Enhance Manager Development:** Train managers to provide guidance, inspiration, and mentorship—not just task oversight (Deloitte finding that managers spend only 13% of time on development). Equip managers to have career conversations and create individualized development plans aligned with employee aspirations.
+
+3. **Clarify Purpose and Impact:** Articulate organizational mission clearly and connect individual roles to meaningful outcomes—90% of both generations need this. Create opportunities for employees to drive change and have agency (61% of Gen Z and 58% of millennials believe they can drive change). Include younger employees in decision-making on issues affecting them directly.
+
+4. **Optimize Flexibility and Work-Life Balance:** Recognize that only 6% prioritize traditional leadership roles—flexibility matters more than advancement for many. Consider hybrid arrangements, flexible hours, and outcomes-based performance rather than time-based. Explore optional benefit packages that employees can customize.
+
+5. **Strengthen Comprehensive Benefits:** The NIRS finding that public sector workers have significantly lower quit rates due to better benefits provides strong evidence. Ensure competitive base compensation to address financial insecurity (48-46% don't feel secure). Consider pension/retirement benefits, healthcare, and optional perks (gym, childcare, wellness services).
+
+6. **Measure and Improve Engagement:** With only 29% of millennials engaged, regular pulse surveys to track engagement and act on feedback are essential. Address the 55% who are "not engaged"—they're at high flight risk. Create feedback loops so employees see their input leads to changes.
+
+7. **Adapt to Economic Realities:** Recognize that turnover patterns partly reflect declining entry-level opportunities (29 percentage point drop since Jan 2024 per Randstad). Consider creating more entry-level pathways, apprenticeships, or training programs. Be realistic about long-term retention—1-2 year tenures may be the new normal for early-career employees, so focus on making those years valuable for both parties and maintaining alumni networks.
+
+The evidence strongly suggests that organizations creating environments with strong development opportunities, clear purpose, flexible arrangements, comprehensive benefits, and quality management will significantly improve retention among millennials and Gen Z. However, some level of higher mobility among younger workers appears to be a structural labor market shift that organizations must adapt to rather than simply try to eliminate.
 
 ---
 INSTRUCTIONS:
