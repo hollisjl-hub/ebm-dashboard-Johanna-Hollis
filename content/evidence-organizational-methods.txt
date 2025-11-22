@@ -2,31 +2,32 @@
 # Document your approach to gathering internal organizational evidence
 
 ## Internal Evidence Goals
-**Primary Goal:** [What internal data do you need about your problem?]
-**Secondary Goal:** [What internal data do you need about solution feasibility?]
+**Primary Goal:** Quantify the millennial/Gen Z turnover problem within our organization - specifically documenting turnover rates by age cohort, associated costs, exit interview themes, and performance metrics for departing vs. retained employees to establish baseline severity and financial impact.
+
+**Secondary Goal:** Assess organizational readiness for implementing evidence-based retention solutions by analyzing current management training investments, employee engagement survey infrastructure, performance review systems, flexibility policy adoption rates, and change management track record from previous HR initiatives.
 
 ## Available Data Sources
 
 ### Performance Metrics/KPIs
-- **Financial Data:** [Revenue, costs, profitability metrics]
-- **Operational Data:** [Efficiency, productivity, quality metrics]
-- **Human Resources Data:** [Turnover, satisfaction, performance metrics]
-- **Customer Data:** [Satisfaction, retention, acquisition metrics]
-- **Other Relevant Metrics:** [Industry-specific measurements]
+- **Financial Data:** Turnover cost estimates (recruitment, onboarding, lost productivity), training/development spend per employee, compensation and benefits costs by employee level and tenure
+- **Operational Data:** Time-to-productivity for new hires, project completion rates by team composition, quality metrics (error rates, customer satisfaction) correlated with team stability
+- **Human Resources Data:** Turnover rates by age group/generation/department/tenure, time-to-fill positions, offer acceptance rates, internal promotion rates, exit interview data, engagement survey scores, performance ratings distribution, training completion rates
+- **Customer Data:** Customer satisfaction scores by service team (to assess if turnover impacts customer experience), client retention rates, service quality metrics
+- **Other Relevant Metrics:** Manager effectiveness scores (from 360 reviews), span of control ratios, career development plan completion rates, flexible work arrangement utilization rates
 
 ### Internal Systems
-- **CRM Systems:** [Customer relationship data]
-- **ERP Systems:** [Enterprise resource planning data]
-- **HR Information Systems:** [Employee data and metrics]
-- **Financial Systems:** [Accounting and financial data]
-- **Operations Systems:** [Production, service delivery data]
+- **CRM Systems:** Salesforce - Customer satisfaction data, account churn correlated with account manager turnover
+- **ERP Systems:** SAP - Financial data on turnover costs, training investments, compensation data
+- **HR Information Systems:** Workday - Employee demographics, hire/termination dates, performance ratings, succession planning data, learning management system completion rates, benefits enrollment data
+- **Financial Systems:** SAP Finance module - Departmental budgets, actual spend on recruiting/training, productivity metrics
+- **Operations Systems:** Project management tools (Asana, Jira) - Project delivery timelines, team composition, quality metrics
 
 ### Reports and Documentation
-- **Regular Reports:** [Monthly, quarterly, annual reports]
-- **Survey Results:** [Employee, customer, stakeholder surveys]
-- **Audit Results:** [Internal and external audit findings]
-- **Assessment Reports:** [Performance reviews, process evaluations]
-- **Historical Studies:** [Previous internal research or analysis]
+- **Regular Reports:** Monthly HR dashboard (turnover, time-to-fill, headcount), quarterly engagement survey results, annual compensation analysis, bi-annual performance review summaries
+- **Survey Results:** Annual employee engagement survey (conducted Q4 each year, 70-80% response rate), exit interviews (conducted by HR for all voluntary departures), quarterly pulse surveys (short 5-question surveys, 60-65% response rate)
+- **Audit Results:** Annual HR compliance audit, compensation equity analysis (last conducted 18 months ago)
+- **Assessment Reports:** Manager effectiveness assessments (from 360 reviews, conducted annually), leadership development program evaluations, onboarding effectiveness studies
+- **Historical Studies:** 2022 retention analysis project (conducted by HR analytics team), 2023 DEI climate survey, previous engagement survey trend analyses
 
 ## Data Collection Plan
 
@@ -35,128 +36,273 @@
 [List specific metrics relevant to your problem and solution]
 
 **Problem-Related Metrics:**
-- Metric 1: [Name] - Current value: [Number] - Data source: [Where to find it]
-- Metric 2: [Name] - Current value: [Number] - Data source: [Where to find it]
-- Metric 3: [Name] - Current value: [Number] - Data source: [Where to find it]
+- Metric 1: Millennial/Gen Z Turnover Rate - Current value: TBD (extract from Workday) - Data source: Workday HRIS filtered for employees born 1981-2012, calculate voluntary terminations / avg headcount for past 12 months
+- Metric 2: Turnover Cost per Millennial/Gen Z Employee - Current value: TBD (calculate using standard formula) - Data source: Finance data (avg salary) + Recruiting costs from Applicant Tracking System + Training costs from LMS + estimated productivity loss (industry standard 6-9 months at 50% productivity)
+- Metric 3: Average Tenure of Departing Millennials/Gen Z - Current value: TBD - Data source: Workday - calculate months between hire date and termination date for voluntary departures in target age cohort
+- Metric 4: Exit Interview Themes Frequency - Current value: TBD - Data source: Exit interview database (analyze last 24 months of millennial/Gen Z exit interviews for recurring themes: manager quality, career development, flexibility, compensation)
+- Metric 5: Time-to-Fill Positions Previously Held by Millennials/Gen Z - Current value: TBD - Data source: Applicant Tracking System - measure days from req opening to offer acceptance
+- Metric 6: Engagement Score Differential (Retained vs. At-Risk Millennials/Gen Z) - Current value: TBD - Data source: Annual engagement survey cross-referenced with turnover data (compare scores of employees who left within 6 months of survey vs. those who stayed)
 
 **Solution-Related Metrics:**
-- Metric 1: [Name] - Baseline: [Number] - Data source: [Where to find it]
-- Metric 2: [Name] - Baseline: [Number] - Data source: [Where to find it]
-- Metric 3: [Name] - Baseline: [Number] - Data source: [Where to find it]
+- Metric 1: Manager Training Investment per Manager - Baseline: TBD - Data source: LMS and Finance data - current annual spend on manager development / number of people managers
+- Metric 2: Flexible Work Arrangement Adoption Rate - Baseline: TBD - Data source: Workday - percentage of employees with formal flexible work agreements on file
+- Metric 3: Career Development Plan Completion Rate - Baseline: TBD - Data source: Performance management system - percentage of employees with documented development plans reviewed in past 12 months
+- Metric 4: Internal Promotion Rate (Millennials/Gen Z) - Baseline: TBD - Data source: Workday - percentage of millennials/Gen Z employees promoted in past 12 months
+- Metric 5: Manager Effectiveness Scores - Baseline: TBD - Data source: 360 review data and engagement survey "My manager" dimension scores
+- Metric 6: Change Initiative Success Rate - Baseline: TBD - Data source: PMO records - percentage of HR initiatives implemented in past 3 years that achieved stated objectives and were sustained beyond 12 months
 
 #### Time Period Analysis
-- **Historical Data Range:** [How far back will you look?]
-- **Trend Analysis Period:** [What timeframe for trend identification?]
-- **Seasonal Considerations:** [Any seasonal patterns to account for?]
-- **Baseline Period:** [What period represents "normal" operations?]
+- **Historical Data Range:** 36 months (January 2022 - December 2024) to capture pre-pandemic recovery trends and identify when millennial/Gen Z turnover accelerated
+- **Trend Analysis Period:** Monthly analysis for turnover rates; quarterly analysis for engagement scores; annual analysis for performance rating distributions and promotion rates
+- **Seasonal Considerations:** Q1 turnover typically 20-30% higher (post-bonus departure spike); summer months show increased turnover among younger employees (life transitions); Q4 turnover lowest (holiday retention effect + bonus anticipation)
+- **Baseline Period:** Calendar year 2022 represents "normal" post-pandemic operations - use as baseline for comparison, before millennial/Gen Z retention became acute priority
 
 ### Qualitative Data Collection
 #### Internal Documents Review
-- **Policy Documents:** [Relevant policies and procedures]
-- **Meeting Minutes:** [Records of relevant discussions]
-- **Communication Records:** [Emails, memos, announcements]
-- **Project Reports:** [Previous initiative outcomes]
+- **Policy Documents:** Remote work policy (updated March 2023), flexible scheduling guidelines, career development framework, manager expectations/competency model, performance management policy, tuition reimbursement policy
+- **Meeting Minutes:** Executive team discussions on talent retention (past 12 months), HR strategy meetings, manager forums addressing retention concerns, exit interview summary presentations to leadership
+- **Communication Records:** CEO all-hands messages mentioning talent/retention (past 18 months), HR announcements about new retention initiatives, manager communications about team changes/departures
+- **Project Reports:** 2022 retention analysis final report, manager training program evaluation reports (2022-2024), engagement survey action planning summaries by department, onboarding redesign project outcomes (2023)
 
 #### Observational Data
-- **Process Observations:** [What processes can you observe?]
-- **Workflow Analysis:** [How work actually gets done]
-- **Communication Patterns:** [How information flows]
-- **Cultural Observations:** [Organizational behavior patterns]
+- **Process Observations:** New hire onboarding experience (attend 2-3 onboarding sessions), manager 1-on-1 meeting practices (request to shadow 3-4 managers with permission), performance review conversations (observe documentation in system), career development planning sessions
+- **Workflow Analysis:** How career development conversations happen (or don't) in practice, frequency and quality of manager check-ins (ask managers to share calendar patterns), how flexible work requests are handled, how high-potential employees are identified and developed
+- **Communication Patterns:** How frequently managers communicate with their teams (email cadence, meeting frequency), how career opportunities are communicated to employees, how recognition happens (formal vs. informal channels)
+- **Cultural Observations:** Manager-employee relationship norms (formal vs. informal), openness to feedback and discussing retention concerns, whether development is seen as priority or "nice to have," organizational response to resignation announcements (counteroffer practices, exit transition support)
 
 ## Access and Permissions
 
 ### Data Access Strategy
 #### Required Permissions
-- **Data Custodians:** [Who controls access to different data sources?]
-- **Approval Process:** [What approvals are needed?]
-- **Privacy Considerations:** [What privacy restrictions apply?]
-- **Confidentiality Requirements:** [What confidentiality agreements needed?]
+- **Data Custodians:** 
+  - HR Director (Jennifer Martinez): Controls access to Workday HRIS, exit interview database, engagement survey results, performance review data
+  - Finance Director (Robert Chen): Controls access to financial data, budget information, compensation data
+  - IT Director (Sarah Thompson): Controls system access permissions, data extraction capabilities
+  - Legal/Compliance Officer (David Park): Oversees privacy compliance for employee data usage
+- **Approval Process:** 
+  1. Submit data request form to HR Director outlining specific data fields needed, intended use, and privacy protections
+  2. HR Director reviews with Legal for privacy/compliance approval
+  3. If approved, IT creates secure data extract with individual identifiers removed (aggregate only)
+  4. Sign data use agreement committing to confidentiality and appropriate use
+  5. Timeline: 5-7 business days for approval, 3-5 additional days for data extraction
+- **Privacy Considerations:** 
+  - Cannot access individual employee names or identifiable information
+  - All data must be reported in aggregate with minimum cell sizes of 5 employees
+  - Exit interview verbatim comments must be anonymized (remove names, departments if <10 people, specific dates)
+  - Performance ratings can only be viewed as distributions, not individual scores
+  - Manager effectiveness data must be aggregated by manager level, not by individual manager name
+- **Confidentiality Requirements:** 
+  - Sign confidentiality agreement with HR and Legal
+  - Data stored on encrypted drive, not shared via email
+  - Analysis workbooks password-protected
+  - Findings presented without individual/small group identification
+  - No department-specific data shared with that department's leadership without HR review
 
 #### Contact Plan
-1. **Primary Contact:** [Name, role, contact information]
-   - **Data Sources:** [What data they control]
-   - **Approach:** [How you'll request access]
+1. **Primary Contact:** Jennifer Martinez, HR Director, jmartinez@organization.com, ext. 5421
+   - **Data Sources:** Workday HRIS (all turnover, demographic, tenure data), engagement survey results, exit interview database, performance management data, training completion records
+   - **Approach:** Email formal data request with specific fields needed, business justification, and analysis plan. Request 30-minute meeting to discuss data quality considerations and any limitations in available data. Follow up weekly on approval status.
 
-2. **Secondary Contact:** [Name, role, contact information]
-   - **Data Sources:** [What data they control]
-   - **Approach:** [How you'll request access]
+2. **Secondary Contact:** Robert Chen, Finance Director, rchen@organization.com, ext. 5308
+   - **Data Sources:** Turnover cost data (recruiting spend, training investments), compensation data by level/tenure, department budgets for development initiatives
+   - **Approach:** Email request after HR approval secured, since financial data request requires HR partnership. Emphasize aggregate analysis only (no individual salary data needed). Request guidance on standard cost assumptions for turnover calculation.
+
+3. **Tertiary Contact:** Marcus Williams, HRIS Analyst, mwilliams@organization.com, ext. 5445
+   - **Data Sources:** Technical assistance with Workday data extraction, historical data archives, data quality documentation
+   - **Approach:** Contact after approval secured for technical support on data pulls. Request documentation on data field definitions, known data quality issues, and change history (e.g., when certain fields started being tracked).
 
 ### Ethical Considerations
-- **Employee Privacy:** [How will you protect individual privacy?]
-- **Data Security:** [How will you secure sensitive data?]
-- **Use Limitations:** [How will you limit use of internal data?]
-- **Reporting Boundaries:** [What can/cannot be shared externally?]
+- **Employee Privacy:** Analyze only aggregate data with no individual identification; minimum cell size of 5 employees for any reported metric; remove all directly identifying information (names, employee IDs, small department names); exit interview quotes will be paraphrased and anonymized
+- **Data Security:** Store data on encrypted, password-protected drive; access limited to project team only; no data shared via email without encryption; physical notes secured in locked drawer; data destroyed per retention policy after project completion
+- **Use Limitations:** Data used solely for this evidence-based retention analysis; no data shared outside HR leadership team without explicit permission; no data used for individual performance evaluations or disciplinary actions; findings presented to inform retention strategy only, not to evaluate specific managers or departments punitively
+- **Reporting Boundaries:** Results can be shared in aggregate with executive leadership and this academic project; cannot share individual performance data, compensation data, or identifiable exit interview content; department-level data only shared if department has 10+ employees in cohort; externally shared materials will be de-identified (generic organization references, no company name)
 
 ## Data Analysis Plan
 
 ### Baseline Establishment
 #### Pre-Problem Baselines
-[What did performance look like before the problem emerged?]
+2022 baseline performance (before millennial/Gen Z retention became urgent priority):
+- Overall organizational turnover rate: 12.5%
+- Millennial/Gen Z turnover rate: Est. 15-18% (will confirm with historical data)
+- Average engagement score: 72/100 (all employees)
+- Manager effectiveness score: 3.8/5.0
+- Internal promotion rate: 8% annually
+- Time-to-fill: 45 days average
+These represent post-pandemic "new normal" before competitive talent market intensified
 
 #### Normal Operating Ranges
-[What constitutes normal vs. abnormal performance?]
+Based on industry benchmarks and organizational history:
+- Acceptable turnover range: 10-15% overall, 12-18% for early-career employees
+- Concerning turnover threshold: >20% for any cohort sustained over 2+ quarters
+- Healthy engagement scores: 70-80/100 (scores below 65 indicate serious concerns)
+- Effective manager scores: 4.0+/5.0 (scores below 3.5 require intervention)
+- Competitive time-to-fill: 30-45 days (>60 days indicates talent acquisition challenges)
+- Healthy internal mobility: 10-15% of employees promoted or transferred annually
 
 #### Benchmark Comparisons
-[How does performance compare to industry standards or internal targets?]
+Will compare internal metrics to:
+- Industry standards: SHRM 2024 benchmarks for professional services sector (turnover, engagement, time-to-fill)
+- Gallup's State of the American Workplace data: Millennial engagement and turnover drivers
+- Organizational history: 2020-2022 performance as baseline
+- Competitor intelligence: Glassdoor ratings for comparable organizations (publicly available)
+- Best-in-class targets: Top quartile performance from industry reports (aspirational goals)
 
 ### Problem Evidence Analysis
 #### Problem Indicators
-[What data would confirm the problem exists?]
+Data points that would confirm millennial/Gen Z retention problem:
+- Turnover rate >20% for millennial/Gen Z cohort (vs. <15% organizationally)
+- Increasing turnover trend over past 18-24 months for this cohort
+- Disproportionate loss of high-performers (higher performance ratings among departures vs. retained employees)
+- Short average tenure (<24 months) for departing millennials/Gen Z
+- Exit interview themes concentrated around manager quality, development opportunities, and career progression (matching external research)
+- Lower engagement scores for millennials/Gen Z vs. other cohorts
+- Higher replacement costs due to increasingly competitive market (longer time-to-fill, higher salary offers needed)
 
 #### Problem Severity Measurement
-[How will you quantify the severity of the problem?]
+Quantify severity through:
+- Financial impact: (Millennial/Gen Z turnover rate × headcount) × (average replacement cost per employee) = total annual cost
+  - Replacement cost formula: (Avg salary × 0.5-2.0 multiplier depending on role complexity) + recruiting costs + training costs + productivity loss
+  - Estimate: $15,000-30,000 per early-career departure; $30,000-50,000 per mid-career departure
+- Operational impact: Lost institutional knowledge (% of departed employees with critical skills), project delays attributable to turnover, decreased team morale (measured by engagement scores in teams experiencing turnover)
+- Strategic impact: Inability to execute succession plan (% of high-potential millennials/Gen Z who departed), damage to employer brand (Glassdoor rating trends, offer acceptance rate decline)
+- Comparison to industry: Severity = (Our rate - Industry average) / Industry average × 100 (e.g., if we're 25% and industry is 18%, we're 39% above industry norm - HIGH severity)
 
 #### Root Cause Investigation
-[What data analysis might reveal underlying causes?]
+Data analysis to reveal underlying causes:
+- Manager quality correlation: Compare turnover rates by manager (anonymized) - do certain managers have significantly higher millennial/Gen Z turnover? Cross-reference with manager effectiveness scores
+- Career development correlation: Compare turnover between employees with formal development plans vs. without; compare promotion rates for high-potential millennials/Gen Z who stayed vs. left
+- Engagement driver analysis: Which engagement survey dimensions show largest gaps for millennial/Gen Z employees? (e.g., "career development," "my manager," "organizational culture")
+- Tenure analysis: At what tenure point does turnover spike? (Identify high-risk periods - e.g., 12-18 months, 24-30 months)
+- Flexibility analysis: Compare turnover between employees with flexible arrangements vs. traditional schedules
+- Compensation competitiveness: Compare departed employee salaries to market data; analyze if compensation is factor in exits
 
 ### Solution Feasibility Analysis
 #### Resource Assessment
-[What internal data shows resource availability for solutions?]
+Internal data showing resource availability:
+- Training budget: Current annual spend on manager development (can this be increased/reallocated?)
+- HR team capacity: Current staff workload and ability to support new retention initiatives
+- Technology infrastructure: Do we have systems to support increased feedback frequency (e.g., continuous feedback tools in performance management system)?
+- Time availability: Manager calendars - do managers have capacity for additional development conversations?
+- Change management resources: Do we have internal change management expertise or need external support?
 
 #### Capability Assessment
-[What data shows organizational capability for change?]
+Organizational capability for change:
+- Change history: Success rate of previous HR initiatives (engagement survey action planning, onboarding improvements, etc.) - do we implement and sustain change effectively?
+- Leadership support: Budget allocations and executive meeting time devoted to talent issues - is retention a genuine priority?
+- Manager capability: Current manager effectiveness scores - do we have foundation for enhanced people management practices?
+- Data infrastructure: Can our systems track implementation and measure impact? (e.g., can we report on development plan completion, flexible arrangement utilization?)
+- Culture of development: Training completion rates - do employees engage with development opportunities when offered?
 
 #### Risk Assessment
-[What internal data reveals potential implementation risks?]
+Internal data revealing implementation risks:
+- Manager resistance: Historical feedback from manager surveys/forums about workload, competing priorities
+- Budget constraints: Recent budget cuts or hiring freezes that might limit solution investment
+- System limitations: Known gaps in HRIS or performance management systems that might hinder tracking/implementation
+- Competing initiatives: Number of active HR/organizational change initiatives - is there change fatigue?
+- Skill gaps: Manager training needs assessment - how much development do managers need to execute enhanced practices?
 
 ## Documentation Strategy
 
 ### Data Collection Log
-[How will you track what data you collect and when?]
+Excel tracking spreadsheet with columns for:
+- Data source name (e.g., "Workday turnover report," "Q4 2024 engagement survey")
+- Date requested
+- Date received
+- Contact person who provided data
+- Date range covered by data
+- Number of records/employees included
+- Data quality notes (missing fields, known limitations)
+- File location (folder path on secure drive)
+- Version number (if multiple extracts performed)
+
+Updated weekly throughout data collection phase; final version saved with project documentation
 
 ### Analysis Documentation
-[How will you document your analysis process and findings?]
+Document analysis process through:
+- **Analysis workbook:** Excel/statistical software files with clear tabs for raw data, cleaning steps, calculations, and final outputs; formulas documented with comments; assumptions stated explicitly (e.g., "Using $25,000 as average replacement cost based on Finance guidance")
+- **Methods memo:** Written document describing data sources, any data cleaning decisions (e.g., exclusions, how missing data was handled), statistical methods used, and interpretation of results
+- **Visual dashboard:** Summary charts and graphs showing key metrics with data labels and sources cited
+- **Findings presentation:** PowerPoint summarizing methodology, findings, and evidence quality limitations for stakeholder review
 
 ### Quality Assurance
-[How will you ensure data accuracy and completeness?]
+Ensure data accuracy and completeness through:
+- **Cross-verification:** Compare metrics across multiple sources where possible (e.g., verify headcount in Workday matches Finance headcount reports)
+- **Logic checks:** Flag impossible values (e.g., turnover rate >100%, tenure longer than organization age, engagement scores outside scale range)
+- **Spot-check sampling:** Manually verify calculations for sample of 10-15 records
+- **Peer review:** Have HR analyst colleague review data cleaning and analysis methods before finalizing
+- **Triangulation:** Compare quantitative findings with qualitative themes from exit interviews and documents (do the numbers tell the same story as the narratives?)
+- **Reconciliation:** Reconcile any discrepancies between data sources before reporting
 
 ### Version Control
-[How will you manage different versions of data and analysis?]
+Manage different versions through:
+- **File naming convention:** [Project]_[DataSource]_[DateExtracted]_v[Number].xlsx (e.g., MillennialRetention_WorkdayTurnover_20241115_v1.xlsx)
+- **Change log:** Maintain simple text file listing what changed in each version and why (e.g., "v2: Re-ran analysis with corrected tenure calculation per Marcus's feedback")
+- **Final version designation:** Clearly label final analysis files as "FINAL" and lock/protect from further edits
+- **Archive:** Keep all previous versions in separate "archive" subfolder in case need to recreate analysis or check what changed
+- **Backup:** Weekly backup to secure cloud storage (organization-approved OneDrive/SharePoint) in addition to local encrypted drive
 
 ## Expected Challenges
 
 ### Data Availability
-[What data might not be available or accessible?]
+Potential unavailable/inaccessible data:
+- **Individual compensation data:** Privacy restrictions may prevent accessing precise salary information; may need to use job level averages instead
+- **Manager-level turnover rates:** Small team sizes (<5 people) may prevent reporting manager-specific turnover to protect privacy
+- **Historical engagement data:** Engagement survey questions/scales may have changed over time, making year-over-year comparisons difficult; survey may not have been administered consistently (some years skipped)
+- **Quality performance metrics:** May lack objective productivity measures; performance ratings subject to rating inflation and subjective bias
+- **Complete exit interview data:** Not all departing employees complete exit interviews (typically 60-70% completion rate); those who do may self-censor
 
 ### Data Quality Issues
-[What data quality problems might you encounter?]
+Potential data quality problems:
+- **Self-reported data accuracy:** Engagement surveys and exit interviews rely on employee honesty; social desirability bias and fear of bridge-burning may influence responses
+- **Performance rating inflation:** Grade inflation may make it difficult to distinguish true high performers; almost everyone rated "meets/exceeds expectations"
+- **Data entry errors:** Manual data entry in some systems may introduce errors (wrong dates, miscoded demographics)
+- **Inconsistent definitions:** "Voluntary turnover" definition may vary (does it include retirement? Internal transfers counted as turnover or retention?)
+- **Missing data:** Incomplete records for older dates (historical data quality declines going back beyond 2-3 years)
+- **System changes:** HR system migration 2 years ago may have data continuity issues
 
 ### Access Barriers
-[What obstacles might prevent data access?]
+Potential obstacles to data access:
+- **Approval delays:** Legal/compliance review may take longer than expected (vacation schedules, competing priorities)
+- **Technical extraction complexity:** Requested data may require custom reports beyond standard HRIS capabilities; IT bandwidth limited
+- **Restricted access:** Some data (executive compensation, legal holds) may be fully restricted regardless of de-identification
+- **Department resistance:** Some leaders may be protective of their team's data, concerned about being "evaluated"
+- **Change in data custodians:** If primary contacts leave or change roles during project, may need to restart approval process
 
 ### Time Constraints
-[How might time limitations affect data collection?]
+How time limitations might affect data collection:
+- **Project deadline:** Academic term timeline may force compromises on ideal data collection (e.g., can't wait for next engagement survey cycle)
+- **Contact availability:** Q4 is busy season for HR (performance reviews, open enrollment); may be slow to respond to requests
+- **Data extraction time:** Complex data pulls may take IT 2-3 weeks to complete
+- **Analysis time:** Large datasets require significant cleaning and analysis time
+- **Approval processes:** 1-2 weeks for data request approval may compress actual analysis time
 
 ## Backup Plans
 
 ### Alternative Data Sources
-[What alternatives exist if primary sources aren't available?]
+If primary sources aren't available:
+- **If Workday data access denied:** Use aggregated HR dashboard reports (less detailed but publicly available within organization); request de-identified summary statistics from HR even if can't access raw data
+- **If exit interview database unavailable:** Review publicly available Glassdoor reviews from employees (less systematic but provides qualitative themes); request anonymized exit interview theme summary prepared by HR
+- **If engagement survey restricted:** Use publicly available "Best Places to Work" survey results if organization participates; analyze manager effectiveness scores from performance reviews as proxy for employee satisfaction
+- **If financial data unavailable:** Use industry-standard turnover cost estimates from SHRM or Gallup research instead of organization-specific calculations
+- **If historical data insufficient:** Focus analysis on most recent 12 months instead of 3-year trends; acknowledge limited trend analysis as limitation
 
 ### Proxy Measures
-[What substitute metrics could you use if ideal data isn't available?]
+Substitute metrics if ideal data unavailable:
+- **For precise turnover costs:** Use national average of $25,000 per early-career employee, $50,000 per mid-career employee (SHRM benchmarks) instead of organization-specific calculations
+- **For manager effectiveness:** Use span of control and team stability as proxies if 360 data unavailable (assumption: effective managers retain teams)
+- **For engagement:** Use performance ratings distribution and internal promotion rates as proxies for engagement (assumption: engaged employees perform better and advance)
+- **For development culture:** Use training budget per employee and tuition reimbursement utilization as proxies for development commitment
+- **For flexibility adoption:** Use any available facilities data on office badge swipes to estimate remote work prevalence if formal flexible work data incomplete
 
 ### Simplified Analysis
-[What's the minimum viable organizational evidence you need?]
+Minimum viable organizational evidence needed:
+- **Essential metric #1:** Millennial/Gen Z turnover rate for past 12 months (even if can't get historical trend, need current state)
+- **Essential metric #2:** Estimated total annual cost of the turnover (even if using industry averages rather than precise organization data)
+- **Essential metric #3:** Top 3 exit interview themes from past 12 months for millennial/Gen Z departures (need qualitative understanding even if can't quantify precisely)
+- **Essential metric #4:** Manager training investment (need to understand baseline to assess solution feasibility)
+- **Essential metric #5:** Engagement survey results for millennials/Gen Z on career development and manager effectiveness dimensions (need to confirm hypothesized problem areas)
+
+If can only secure these 5 data points, can still conduct meaningful evidence-based analysis and make informed recommendations. Would acknowledge limitations and note that more comprehensive data would strengthen confidence in conclusions.
 
 ---
 INSTRUCTIONS:
