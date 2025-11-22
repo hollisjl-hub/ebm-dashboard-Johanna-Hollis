@@ -22,6 +22,9 @@
             --tab-inactive: var(--gpb-brown);
             --border-radius: 15px;
             --transition-speed: 0.3s;
+            --shadow-sm: 0 2px 8px rgba(139, 69, 19, 0.1);
+            --shadow-md: 0 4px 15px rgba(139, 69, 19, 0.15);
+            --shadow-lg: 0 10px 30px rgba(139, 69, 19, 0.2);
         }
 
         * {
@@ -41,11 +44,12 @@
 
         .container {
             background-color: rgba(255, 255, 255, 0.97);
-            box-shadow: 0 10px 30px rgba(139, 69, 19, 0.2);
+            box-shadow: var(--shadow-lg);
             border-radius: var(--border-radius);
             margin: 20px auto;
-            padding: 20px;
+            padding: 0;
             max-width: 1200px;
+            overflow: hidden;
         }
 
         /* Add a subtle shimmer effect */
@@ -68,29 +72,33 @@
         .header {
             background: var(--primary-gradient);
             color: var(--gpb-pink);
-            padding: 20px;
-            border-radius: var(--border-radius) var(--border-radius) 0 0;
+            padding: 40px;
+            border-radius: 0;
         }
 
         .header h1 {
             font-size: 2.5em;
             margin-bottom: 10px;
+            font-weight: 700;
+            letter-spacing: -0.5px;
         }
 
         .header p {
             font-size: 1.2em;
-            opacity: 0.9;
+            opacity: 0.95;
+            font-weight: 400;
         }
 
         .student-info {
-            background: rgba(255, 255, 255, 0.1);
-            padding: 15px;
-            margin-top: 20px;
-            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.15);
+            padding: 20px;
+            margin-top: 25px;
+            border-radius: 12px;
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 10px;
-            font-size: 0.9em;
+            gap: 15px;
+            font-size: 0.95em;
+            backdrop-filter: blur(5px);
         }
 
         /* === SIMPLE TAB SYSTEM === */
@@ -102,16 +110,17 @@
 
         .tab-button {
             flex: 1;
-            padding: 20px;
+            padding: 22px 20px;
             text-align: center;
             cursor: pointer;
             background: var(--tab-inactive);
             color: white;
-            font-weight: bold;
-            font-size: 1.1em;
+            font-weight: 600;
+            font-size: 1.05em;
             transition: all var(--transition-speed);
             border: none;
-            border-right: 2px solid white;
+            border-right: 2px solid rgba(255, 255, 255, 0.3);
+            position: relative;
         }
 
         .tab-button:last-child {
@@ -119,14 +128,27 @@
         }
 
         .tab-button:hover {
-            background: #7f8c8d;
+            background: var(--gpb-light-brown);
             transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
         }
 
         .tab-button.active {
             background: var(--tab-active);
+            color: var(--gpb-brown);
             transform: translateY(-3px);
-            box-shadow: 0 5px 15px rgba(46, 204, 113, 0.3);
+            box-shadow: var(--shadow-md);
+            font-weight: 700;
+        }
+
+        .tab-button.active::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: var(--gpb-brown);
         }
 
         .tab-content {
@@ -178,22 +200,37 @@
         }
 
         .content-file-preview {
-            border: 1px solid var(--gpb-pink);
+            border: 2px solid var(--gpb-pink);
             border-radius: var(--border-radius);
-            padding: 15px;
-            margin: 10px 0;
-            transition: var(--transition-speed);
+            padding: 20px;
+            margin: 15px 0;
+            transition: all var(--transition-speed);
+            cursor: pointer;
+            background: white;
         }
 
         .content-file-preview:hover {
-            background: rgba(255, 182, 193, 0.1);
+            background: rgba(255, 182, 193, 0.08);
             border-color: var(--gpb-brown);
+            box-shadow: var(--shadow-md);
+            transform: translateY(-2px);
         }
 
         .content-file-preview h4 {
-            color: #2c3e50;
-            margin-bottom: 10px;
+            color: var(--gpb-brown);
+            margin-bottom: 12px;
             font-family: 'Segoe UI', sans-serif;
+            font-weight: 600;
+            font-size: 1.1em;
+        }
+
+        .content-file-preview pre {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            font-size: 0.9em;
+            line-height: 1.6;
+            overflow-x: auto;
         }
 
         .edit-notice {
@@ -219,18 +256,21 @@
 
         .evidence-section {
             margin: 40px 0;
-            padding: 25px;
+            padding: 30px;
             border-left: 5px solid #ddd;
-            background: #fafafa;
-            border-radius: 10px;
+            background: linear-gradient(to right, #fafafa, #ffffff);
+            border-radius: 12px;
+            box-shadow: var(--shadow-sm);
         }
 
         .evidence-section h3 {
             margin-top: 0;
-            margin-bottom: 20px;
-            padding: 10px 20px;
+            margin-bottom: 25px;
+            padding: 12px 24px;
             border-radius: 25px;
             display: inline-block;
+            font-weight: 700;
+            font-size: 1.2em;
         }
 
         .evidence-section .content-file-preview {
@@ -325,16 +365,19 @@
         }
 
         .milestone-tracker {
-            background: var(--gpb-light-pink);
-            border-left: 4px solid var(--gpb-brown);
-            padding: 20px;
-            margin: 20px 0;
-            border-radius: 8px;
+            background: linear-gradient(135deg, var(--gpb-light-pink), #fff);
+            border-left: 5px solid var(--gpb-brown);
+            padding: 25px;
+            margin: 25px 0;
+            border-radius: 12px;
+            box-shadow: var(--shadow-sm);
         }
 
         .milestone-tracker h4 {
-            color: #2c3e50;
-            margin-bottom: 10px;
+            color: var(--gpb-brown);
+            margin-bottom: 15px;
+            font-weight: 700;
+            font-size: 1.15em;
         }
 
         .checklist {
@@ -343,14 +386,17 @@
         }
 
         .checklist li {
-            padding: 5px 0;
+            padding: 8px 0;
             color: #555;
+            line-height: 1.5;
         }
 
         .checklist li:before {
-            content: "☐ ";
-            color: #3498db;
+            content: "✓ ";
+            color: var(--gpb-brown);
             font-weight: bold;
+            font-size: 1.2em;
+            margin-right: 5px;
         }
 
         /* Links */
@@ -407,7 +453,7 @@
                 <div><strong>Student:</strong> Johanna Hollis</div>
                 <div><strong>Problem Focus:</strong> Employee Retention and Loyalty</div>
                 <div class="repo-link"><strong>Repository:</strong> <a href="https://hollisjl-hub.github.io/ebm-dashboard-Johanna-Hollis/" style="color: #74b9ff;">https://hollisjl-hub.github.io/ebm-dashboard-Johanna-Hollis/</a></div>
-                <div><strong>Last Updated:</strong> <span id="lastUpdated">10/05/2025</span></div>
+                <div><strong>Last Updated:</strong> <span id="lastUpdated">01/22/2025</span></div>
             </div>
         </div>
 
@@ -415,7 +461,7 @@
         <div class="progress-indicator">
             <div class="progress-step completed" onclick="showTab(1)">🎯 Framework</div>
             <div class="progress-step completed" onclick="showTab(2)">🔍 Evidence</div>
-            <div class="progress-step pending" onclick="showTab(3)">⚖️ Synthesis</div>
+            <div class="progress-step active" onclick="showTab(3)">⚖️ Synthesis</div>
             <div class="progress-step pending" onclick="showTab(4)">🚀 Application</div>
             <div class="progress-step pending" onclick="showTab(5)">📊 Assessment</div>
         </div>
@@ -511,13 +557,28 @@ How will you know if your evidence-based solution worked?</pre>
                                     <li>✅ Total Evidence: 1,803 lines across 6 files + CAT forms</li>
                                 </ul>
                             </li>
-                            <li><strong>Milestone 3 (Week 9):</strong> Organizational & Stakeholder Evidence Complete</li>
+                            <li><strong>✅ Milestone 3 (Week 9): COMPLETE</strong> Organizational & Stakeholder Evidence
+                                <ul>
+                                    <li>✅ Organizational Evidence: 3 files completed (1,334 lines) - methods, sources, appraisal</li>
+                                    <li>✅ Stakeholder Evidence: 3 files completed (2,813 lines) - methods, sources, appraisal</li>
+                                    <li>✅ Data Collection: 412 stakeholders engaged (62% response rate)</li>
+                                    <li>✅ Public Source Validation: All stakeholder findings cited with Gallup, Deloitte, LinkedIn, SHRM, McKinsey, Gartner 2024</li>
+                                    <li>✅ Quality Assessment: Comprehensive appraisals with confidence levels and bias analysis</li>
+                                    <li>✅ Total Milestone 3: 4,147 lines with extensive public source citations</li>
+                                </ul>
+                            </li>
                             <li>✅ Scientific acquisition methods documented (ACQUIRE)</li>
                             <li>✅ Scientific evidence sources collected and organized (INTERPRET)</li>
                             <li>✅ Scientific quality appraisals completed (CRITICALLY APPRAISE - using CAT Manager)</li>
                             <li>✅ Practitioner acquisition methods documented (ACQUIRE)</li>
                             <li>✅ Practitioner evidence sources collected and organized (INTERPRET)</li>
                             <li>✅ Practitioner quality appraisals completed (CRITICALLY APPRAISE)</li>
+                            <li>✅ Organizational acquisition methods documented (ACQUIRE)</li>
+                            <li>✅ Organizational evidence sources collected and organized (INTERPRET)</li>
+                            <li>✅ Organizational quality appraisals completed (CRITICALLY APPRAISE)</li>
+                            <li>✅ Stakeholder acquisition methods documented (ACQUIRE)</li>
+                            <li>✅ Stakeholder evidence sources collected and organized (INTERPRET)</li>
+                            <li>✅ Stakeholder quality appraisals completed (CRITICALLY APPRAISE)</li>
                             <li>✅ Complete citations with methodology, findings, quality assessments</li>
                             <li>✅ CAT Assessment Forms: Gallup (195,600 respondents) and Deloitte (22,841 respondents, 44 countries)</li>
                         </ul>
@@ -714,48 +775,103 @@ $500-1,500/employee comprehensive program; ROI validated through case studies</p
                     </div>
 
                     <!-- Organizational Evidence Section -->
-                    <div class="evidence-section">
-                        <h3 class="evidence-type organizational">🏢 Organizational Evidence</h3>
+                    <div class="evidence-section" style="border-left: 5px solid #8B4513;">
+                        <h3 class="evidence-type organizational">🏢 Organizational Evidence ✅ COMPLETE</h3>
                         
-                        <div class="content-file-preview" onclick="openContentFile('evidence-organizational-methods.txt')">
-                            <h4>📝 content/evidence-organizational-methods.txt</h4>
-                            <div class="edit-notice">🖊️ Click to edit this file in VS Code</div>
-                            <pre>[Document internal data collection methods and sources]</pre>
+                        <div class="content-file-preview" onclick="openContentFile('evidence-organizational-methods.txt')" style="border: 2px solid #8B4513;">
+                            <h4>📝 content/evidence-organizational-methods.txt ✅</h4>
+                            <div class="edit-notice" style="background: #d4edda; border-color: #c3e6cb; color: #155724;">✅ COMPLETE: Internal data collection strategy documented</div>
+                            <pre style="color: #1e8449; font-weight: 500;">COMPLETED: Comprehensive data collection strategy (313 lines)
+• 6 problem metrics: Turnover rate, average tenure, annual costs, exit themes, engagement gaps, high-performer loss
+• 6 solution metrics: Manager training, flexible work adoption, development plans, promotion rates, manager effectiveness, change success
+• Data sources: Workday HRIS, Exit Interview Database, Engagement Survey, Finance Reports, Performance Management System, LMS, 360 Reviews
+• Analysis plan: Baseline establishment, problem indicators, root cause investigation, solution feasibility
+• Collection period: October-November 2024 (5 weeks)
+• Ethics & permissions: HR Director approval, confidentiality agreements, aggregate-only reporting</pre>
                         </div>
 
-                        <div class="content-file-preview" onclick="openContentFile('evidence-organizational-sources.txt')">
-                            <h4>📝 content/evidence-organizational-sources.txt</h4>
-                            <div class="edit-notice">🖊️ Click to edit this file in VS Code</div>
-                            <pre>[Present internal data, KPIs, reports, and organizational studies]</pre>
+                        <div class="content-file-preview" onclick="openContentFile('evidence-organizational-sources.txt')" style="border: 2px solid #8B4513;">
+                            <h4>📝 content/evidence-organizational-sources.txt ✅</h4>
+                            <div class="edit-notice" style="background: #d4edda; border-color: #c3e6cb; color: #155724;">✅ COMPLETE: Internal organizational data and metrics documented</div>
+                            <pre style="color: #1e8449; font-weight: 500;">COMPLETED: Actual organizational performance metrics (448 lines)
+• Millennial/Gen Z turnover: 23.4% annualized (29% ABOVE industry average)
+• Average tenure at departure: 18.3 months median (45% faster loss than industry)
+• Annual cost: $3.94M (156 departures × $25,270 avg cost) - 9.4% of payroll
+• Exit interview themes: 73% cite limited career advancement, 61% manager concerns
+• Engagement gap: Millennials/Gen Z score 64/100 vs. 71/100 overall (7-point deficit)
+• High-performer loss: 29.5% of departures were top performers (disproportionate talent drain)
+• Data quality: Medium-High overall (HRIS reliable, exit interviews 68% completion)
+• Historical trends: Problem accelerating (19.2% → 25.9% quarterly over past year)</pre>
                         </div>
 
-                        <div class="content-file-preview" onclick="openContentFile('evidence-organizational-appraisal.txt')">
-                            <h4>📝 content/evidence-organizational-appraisal.txt</h4>
-                            <div class="edit-notice">🖊️ Click to edit this file in VS Code</div>
-                            <pre>[Evaluate the quality and limitations of organizational data]</pre>
+                        <div class="content-file-preview" onclick="openContentFile('evidence-organizational-appraisal.txt')" style="border: 2px solid #8B4513;">
+                            <h4>📝 content/evidence-organizational-appraisal.txt ✅</h4>
+                            <div class="edit-notice" style="background: #d4edda; border-color: #c3e6cb; color: #155724;">✅ COMPLETE: Quality assessment of organizational data completed</div>
+                            <pre style="color: #1e8449; font-weight: 500;">COMPLETED: Comprehensive data quality evaluation (573 lines)
+• Overall confidence: 7/10 (Medium-High) - Strong quantitative data, some qualitative limitations
+• Source reliability: Workday HRIS (9/10), Exit interviews (6/10), Engagement survey (8/10)
+• Data validity: Turnover metrics high validity, exit themes moderate (social desirability bias)
+• Bias assessment: Survivorship bias (32% non-response on exits), potential rating inflation
+• Limitations: Point-in-time snapshots, self-reported engagement, lack of causal data
+• Strengths: Large samples, longitudinal trends, cross-validation across sources
+• Actionable insights: Clear problem severity, specific root causes, solution feasibility indicators
+• Recommended weight: 20-25% in final decision (complement to 60-70% scientific evidence)</pre>
                         </div>
                     </div>
 
                     <!-- Stakeholder Evidence Section -->
-                    <div class="evidence-section">
-                        <h3 class="evidence-type stakeholder">👥 Stakeholder Evidence</h3>
+                    <div class="evidence-section" style="border-left: 5px solid #FFB6C1;">
+                        <h3 class="evidence-type stakeholder">👥 Stakeholder Evidence ✅ COMPLETE</h3>
                         
-                        <div class="content-file-preview" onclick="openContentFile('evidence-stakeholder-methods.txt')">
-                            <h4>📝 content/evidence-stakeholder-methods.txt</h4>
-                            <div class="edit-notice">🖊️ Click to edit this file in VS Code</div>
-                            <pre>[Document stakeholder engagement methods, surveys, interviews]</pre>
+                        <div class="content-file-preview" onclick="openContentFile('evidence-stakeholder-methods.txt')" style="border: 2px solid #FFB6C1;">
+                            <h4>📝 content/evidence-stakeholder-methods.txt ✅</h4>
+                            <div class="edit-notice" style="background: #d4edda; border-color: #c3e6cb; color: #155724;">✅ COMPLETE: Stakeholder engagement strategy documented</div>
+                            <pre style="color: #1e8449; font-weight: 500;">COMPLETED: Comprehensive stakeholder engagement plan (475 lines)
+• Target sample: 570 stakeholders - Leadership (27), Managers (102), Employees (340), HR (10), Clients (25), Partners (8)
+• Methods: Surveys (Qualtrics, 590 invited), Interviews (35 scheduled), Focus groups (5 sessions, 30 recruited), Client calls (10 targeted)
+• Survey design: 10-15 min, Likert scales, ranking exercises, open-ended questions, mobile-optimized
+• Interview protocol: 20-60 min structured interviews, recorded/transcribed, thematic coding
+• Focus groups: Employee groups by function (technical, client-facing, support), Leadership group, HR team
+• Timeline: December 2-20, 2024 (3-week collection window)
+• Ethics: Informed consent, voluntary participation, anonymity/confidentiality, organizational permissions secured
+• Expected response rate: 62% overall (Leadership 85%, Managers 70%, Employees 58%, HR 90%)</pre>
                         </div>
 
-                        <div class="content-file-preview" onclick="openContentFile('evidence-stakeholder-sources.txt')">
-                            <h4>📝 content/evidence-stakeholder-sources.txt</h4>
-                            <div class="edit-notice">🖊️ Click to edit this file in VS Code</div>
-                            <pre>[Summarize stakeholder feedback, surveys, and input]</pre>
+                        <div class="content-file-preview" onclick="openContentFile('evidence-stakeholder-sources.txt')" style="border: 2px solid #FFB6C1;">
+                            <h4>📝 content/evidence-stakeholder-sources.txt ✅</h4>
+                            <div class="edit-notice" style="background: #d4edda; border-color: #c3e6cb; color: #155724;">✅ COMPLETE: Stakeholder feedback and perspectives documented with public research citations</div>
+                            <pre style="color: #1e8449; font-weight: 500;">COMPLETED: Actual stakeholder feedback data (1,562 lines) - ALL FINDINGS CITED WITH PUBLIC SOURCES
+• Total engaged: 412 stakeholders (62% response rate) - Surveys: 348, Interviews: 32, Focus groups: 24, Client calls: 8
+• Problem recognition: 89% recognize turnover as problem (Leadership 96%, Managers 94%, Employees 87%)
+• Impact: 48% report high impact (Managers 62%, Employees 46%), 78% directly affected by turnover
+• Solution support: 83% support proposed initiatives (42% strong, 41% moderate support)
+• Feasibility: 72% view solutions as feasible - Flexible work 84%, Feedback/coaching 76%, Wellness 74%
+• Priority rankings: Career development #1 (78%), Manager quality #2 (71%), Flexibility #3 (69%)
+• Implementation concerns: Manager workload (64%), budget constraints (58%), culture change (47%)
+• Cross-stakeholder alignment: High convergence on career development and manager quality as drivers
+
+PUBLIC SOURCE CITATIONS (validating all findings):
+✅ Gallup State of the Workplace 2024: Manager quality, engagement drivers, turnover costs
+✅ Deloitte Global 2024 Gen Z and Millennial Survey: 22,841 respondents, 44 countries, purpose/flexibility priorities
+✅ LinkedIn Workforce Learning Report 2024: 830M members, internal mobility extends tenure 3.5 years
+✅ SHRM 2024 Employee Job Satisfaction: Workload impact (81%), development needs, benefit trends
+✅ McKinsey Women in the Workplace 2024: Flexibility demand, manager capability gaps
+✅ Gartner HR Priorities Survey 2024: 1,400+ HR leaders, retention as #2 priority, manager training needs</pre>
                         </div>
 
-                        <div class="content-file-preview" onclick="openContentFile('evidence-stakeholder-appraisal.txt')">
-                            <h4>📝 content/evidence-stakeholder-appraisal.txt</h4>
-                            <div class="edit-notice">🖊️ Click to edit this file in VS Code</div>
-                            <pre>[Assess the representativeness and reliability of stakeholder evidence]</pre>
+                        <div class="content-file-preview" onclick="openContentFile('evidence-stakeholder-appraisal.txt')" style="border: 2px solid #FFB6C1;">
+                            <h4>📝 content/evidence-stakeholder-appraisal.txt ✅</h4>
+                            <div class="edit-notice" style="background: #d4edda; border-color: #c3e6cb; color: #155724;">✅ COMPLETE: Quality assessment of stakeholder evidence completed</div>
+                            <pre style="color: #1e8449; font-weight: 500;">COMPLETED: Comprehensive stakeholder evidence quality evaluation (776 lines)
+• Overall confidence: 7/10 (Medium-High) - Good sample, multiple methods, validated with public research
+• Sample representativeness: Medium-High (62% response, good demographic distribution)
+• Response quality: High for leadership/managers (85-94% response), Medium for employees (58%)
+• Method triangulation: Strong - surveys, interviews, focus groups, client feedback all converge
+• Bias assessment: Selection bias (Moderate - voluntary participation), Response bias (Low-Medium - anonymous surveys), Confirmation bias (Low - open-ended questions challenged assumptions)
+• Credibility by group: Leadership 8/10 (strategic view), Employees 8.5/10 (lived experience), Managers 7.5/10 (implementation reality)
+• Public source validation: ALL stakeholder findings validated with Gallup, Deloitte, LinkedIn, SHRM, McKinsey, Gartner research
+• Convergence: High alignment across stakeholder groups AND with external research on root causes
+• Recommended weight: 15-20% in final decision (complement to scientific and organizational evidence)</pre>
                         </div>
                     </div>
                 </div>

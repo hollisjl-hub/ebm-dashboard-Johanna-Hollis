@@ -12,26 +12,27 @@ and opportunities for alignment.
 
 Senior management leads our primary stakeholder group, wielding significant influence
 through control of budgets, policies, and strategic priorities. Their high interest
-stems from both financial concerns ($4,129 average cost per turnover) and
-strategic implications, including knowledge loss and efficiency reduction of
-20-40% during transitions. The HR department shares this primary position, with
+stems from both financial concerns (substantial costs per employee departure) and
+strategic implications, including knowledge loss and significant efficiency
+reduction during transitions. The HR department shares this primary position, with
 direct responsibility for program design and implementation, while facing increased
 workload from continuous recruitment cycles.
 
 Middle management occupies a crucial position with high influence as direct
 implementers of retention strategies and primary sources of employee feedback.
-Their interest is driven by practical challenges: constant retraining burdens
-(1-2.5 months per new hire) and team performance instability. However, their
-support may vary based on required changes to management approaches and additional
-training needs.
+Their interest is driven by practical challenges including constant retraining
+burdens (extended ramp-up time per new hire) and team performance instability.
+However, their support may vary based on required changes to management approaches
+and additional training needs.
 
 ## Secondary Stakeholders (Varying Influence/Interest)
 
 Employees represent a complex stakeholder group with high interest but varying
-influence. Their concerns center on career growth (49% would leave for better
-development), work-life balance (73% of Gen Z priority), and engagement (only 31%
-highly engaged). While they are the primary beneficiaries of improvements, their
-influence manifests through collective actions and cultural impact.
+influence. Their concerns center on career growth (significant percentage would
+leave for better development opportunities), work-life balance (high priority for
+Gen Z employees), and engagement (engagement levels remain below organizational
+goals). While they are the primary beneficiaries of improvements, their influence
+manifests through collective actions and cultural impact.
 
 External stakeholders include customers and industry partners, whose interest stems
 from service consistency and relationship stability concerns, though their
