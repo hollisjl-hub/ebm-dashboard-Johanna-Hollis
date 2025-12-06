@@ -1,249 +1,270 @@
 # Evidence Integration & Synthesis
-# Bringing together all four types of evidence to inform your decision
+# Bringing Together All Four Types of Evidence to Inform Decision-Making
 
-## Evidence Summary by Type
+================================================================================
+EVIDENCE SUMMARY BY TYPE
+================================================================================
 
-### Scientific Evidence Summary
-**Key Finding 1:** [Main research conclusion relevant to your problem]
-- **Source Quality:** [High/Medium/Low]
-- **Relevance to Context:** [How well this applies to your specific situation]
-- **Certainty Level:** [How confident you are in this finding]
+## SCIENTIFIC EVIDENCE SUMMARY
 
-**Key Finding 2:** [Second most important research conclusion]
-- **Source Quality:** [High/Medium/Low]  
-- **Relevance to Context:** [How well this applies to your specific situation]
-- **Certainty Level:** [How confident you are in this finding]
+### Key Finding 1: Manager Quality Drives 70% of Engagement Variance
+**Finding:** Manager capability is the single strongest predictor of employee engagement and retention. Gallup research demonstrates managers account for 70% of variance in team engagement, with millennials/Gen Z especially sensitive to manager quality. Only 29% of millennials report being engaged at work, primarily due to inadequate management practices.
 
-**Key Finding 3:** [Third most important research conclusion]
-- **Source Quality:** [High/Medium/Low]
-- **Relevance to Context:** [How well this applies to your specific situation]  
-- **Certainty Level:** [How confident you are in this finding]
+- **Source Quality:** HIGH
+  - Gallup study: 195,600 U.S. employees (CAT assessment: A/Excellent)
+  - Deloitte global survey: 22,841 respondents across 44 countries
+  - Multiple independent studies converge on manager impact
+  
+- **Relevance to Context:** VERY HIGH
+  - Our organizational data shows 61% of exit interviews cite manager concerns
+  - Our manager effectiveness scores average 62/100 (below threshold)
+  - Direct alignment with our identified problem drivers
+  
+- **Certainty Level:** VERY HIGH
+  - Consistent findings across 6 independent studies
+  - Large samples (57,000+ total respondents)
+  - Longitudinal validation over 14 years (Deloitte tracking)
 
-**Overall Scientific Evidence Strength:** [High/Medium/Low/Insufficient]
+### Key Finding 2: Career Development is #1 Retention Driver for Ages 25-40
+**Finding:** 49% of employees would leave for better development opportunities, and 87% of millennials rate development as critical to job satisfaction. Organizations with strong development cultures show 15% lower turnover.
 
-### Practitioner Evidence Summary
-**Key Insight 1:** [Main lesson from practitioner experience]
-- **Source Credibility:** [How trustworthy the practitioner source is]
-- **Context Similarity:** [How similar their situation is to yours]
-- **Implementation Detail:** [How much you know about how they did it]
+- **Source Quality:** HIGH
+  - Converging evidence from Gallup, Deloitte, Randstad, LinkedIn
+  - LinkedIn data: 830M member behaviors showing internal mobility extends tenure by 3.5 years
+  - SHRM validation with practitioner case studies
+  
+- **Relevance to Context:** VERY HIGH
+  - Our exit interviews: 73% cite limited career advancement as primary factor
+  - Our engagement survey: only 52% satisfied with growth opportunities
+  - Median tenure of 18.3 months suggests inadequate early-career development
+  
+- **Certainty Level:** VERY HIGH
+  - Universal agreement across all 6 scientific studies
+  - Validated by practitioner implementations (HubSpot 34% reduction, Nationwide 26% reduction)
+  - Strongest convergence across all evidence types
 
-**Key Insight 2:** [Second most important practitioner lesson]
-- **Source Credibility:** [How trustworthy the practitioner source is]
-- **Context Similarity:** [How similar their situation is to yours]
-- **Implementation Detail:** [How much you know about how they did it]
+### Key Finding 3: Work-Life Integration is Baseline Expectation, Not Perk
+**Finding:** 73% of Gen Z prioritize work-life balance over traditional benefits, and 75% require flexible work arrangements as baseline. Organizations offering 2-3 days hybrid show 23% lower turnover.
 
-**Key Insight 3:** [Third most important practitioner lesson]
-- **Source Credibility:** [How trustworthy the practitioner source is]
-- **Context Similarity:** [How similar their situation is to yours]
-- **Implementation Detail:** [How much you know about how they did it]
+- **Source Quality:** HIGH
+  - Deloitte global data: 44 countries, consistent findings
+  - Randstad workmonitor: 11,250 respondents, 34 countries
+  - Post-pandemic longitudinal data showing permanent expectation shift
+  
+- **Relevance to Context:** HIGH
+  - Our stakeholder evidence: 84% view flexible work as feasible
+  - Current rigid policies may drive preventable departures
+  - Competitive disadvantage if peers offer flexibility we don't
+  
+- **Certainty Level:** HIGH
+  - Consistent across generations (not just Gen Z preference)
+  - Validated across geographic regions globally
+  - Practitioner evidence confirms implementation feasibility
 
-**Overall Practitioner Evidence Strength:** [High/Medium/Low/Insufficient]
+**Overall Scientific Evidence Strength:** HIGH
 
-### Organizational Evidence Summary
-**Key Data Point 1:** [Most important organizational fact/metric]
-- **Data Quality:** [How reliable and accurate this data is]
-- **Trend Direction:** [Whether this suggests problem is getting better/worse/stable]
-- **Decision Relevance:** [How directly this informs your decision]
-
-**Key Data Point 2:** [Second most important organizational fact/metric]
-- **Data Quality:** [How reliable and accurate this data is]
-- **Trend Direction:** [Whether this suggests problem is getting better/worse/stable]
-- **Decision Relevance:** [How directly this informs your decision]
-
-**Key Data Point 3:** [Third most important organizational fact/metric]
-- **Data Quality:** [How reliable and accurate this data is]
-- **Trend Direction:** [Whether this suggests problem is getting better/worse/stable]
-- **Decision Relevance:** [How directly this informs your decision]
-
-**Overall Organizational Evidence Strength:** [High/Medium/Low/Insufficient]
-
-### Stakeholder Evidence Summary
-**Key Stakeholder Insight 1:** [Most important stakeholder perspective]
-- **Representative Level:** [How well this represents broader stakeholder views]
-- **Bias Assessment:** [Potential biases in this perspective]
-- **Implementation Implication:** [What this means for how you implement]
-
-**Key Stakeholder Insight 2:** [Second most important stakeholder perspective] 
-- **Representative Level:** [How well this represents broader stakeholder views]
-- **Bias Assessment:** [Potential biases in this perspective]
-- **Implementation Implication:** [What this means for how you implement]
-
-**Key Stakeholder Insight 3:** [Third most important stakeholder perspective]
-- **Representative Level:** [How well this represents broader stakeholder views]
-- **Bias Assessment:** [Potential biases in this perspective] 
-- **Implementation Implication:** [What this means for how you implement]
-
-**Overall Stakeholder Evidence Strength:** [High/Medium/Low/Insufficient]
-
-## Cross-Evidence Analysis
-
-### Convergent Findings (Where Evidence Types Agree)
-
-#### Strong Convergence
-**Finding:** [What multiple evidence types consistently support]
-**Supporting Evidence Types:** [Which types of evidence support this]
-**Confidence Level:** [High/Medium/Low] - [Why you're confident in this]
-**Implication:** [What this convergent finding means for your decision]
-
-#### Moderate Convergence  
-**Finding:** [What some evidence types support with some variation]
-**Supporting Evidence Types:** [Which types of evidence support this]
-**Variation Notes:** [How the evidence types differ slightly in their conclusions]
-**Implication:** [What this means for your decision]
-
-### Divergent Findings (Where Evidence Types Disagree)
-
-#### Major Divergence
-**Issue:** [What the evidence types disagree about]
-**Scientific Evidence Says:** [What research suggests]
-**Practitioner Evidence Says:** [What practitioners report]
-**Organizational Evidence Says:** [What your data shows]
-**Stakeholder Evidence Says:** [What stakeholders believe]
-
-**Possible Explanations for Disagreement:**
-- Context differences: [How different contexts might explain the disagreement]
-- Timing factors: [How when evidence was collected might matter]
-- Bias influences: [How biases might create apparent disagreements]
-- Quality differences: [How evidence quality might explain disagreements]
-
-**Resolution Approach:** [How you'll handle this disagreement in your decision]
-
-#### Minor Divergence
-**Issue:** [What the evidence types disagree about - less critical]
-**Resolution Approach:** [How you'll handle this disagreement]
-
-### Evidence Gaps
-
-#### Critical Gaps
-**Gap 1:** [Important question none of your evidence answers well]
-- **Impact on Decision:** [How this gap affects your ability to decide]
-- **Mitigation Strategy:** [How you'll proceed despite this gap]
-
-**Gap 2:** [Second important question with insufficient evidence]
-- **Impact on Decision:** [How this gap affects your ability to decide]
-- **Mitigation Strategy:** [How you'll proceed despite this gap]
-
-#### Minor Gaps
-**Gap:** [Less critical question with insufficient evidence]
-**Mitigation Strategy:** [How you'll handle this]
-
-## Evidence-Based Problem Refinement
-
-### Original Problem Statement
-[Your original problem definition]
-
-### Evidence-Refined Problem Statement  
-[How your understanding of the problem has changed based on all the evidence]
-
-**Key Refinements:**
-- **Scope Changes:** [How evidence changed your understanding of problem scope]
-- **Root Cause Updates:** [How evidence changed your understanding of causes]
-- **Impact Reassessment:** [How evidence changed your understanding of problem impact]
-- **Stakeholder Effects:** [How evidence revealed different stakeholder impacts than expected]
-
-## Evidence-Based Solution Development
-
-### Original Solution Concept
-[Your initial solution idea]
-
-### Evidence-Informed Solution Design
-[How your solution has evolved based on evidence]
-
-**Scientific Evidence Contributions:**
-- **Design Elements:** [What research suggests should be included in solution]
-- **Implementation Approaches:** [What research says about how to implement]
-- **Success Factors:** [What research identifies as crucial for success]
-
-**Practitioner Evidence Contributions:**
-- **Practical Modifications:** [How practitioner experience suggests modifying your approach]
-- **Implementation Lessons:** [What practitioners learned about implementation]
-- **Avoiding Pitfalls:** [What practitioners say not to do]
-
-**Organizational Evidence Contributions:**  
-- **Resource Requirements:** [What organizational data suggests about resource needs]
-- **Timing Considerations:** [What organizational data suggests about timing]
-- **Readiness Assessment:** [Whether organizational data suggests readiness for solution]
-
-**Stakeholder Evidence Contributions:**
-- **Stakeholder Support Elements:** [What needs to be included to maintain stakeholder support]
-- **Resistance Management:** [How to address stakeholder concerns and resistance]
-- **Communication Needs:** [What stakeholders need to know and when]
-
-## Integrated Evidence Assessment
-
-### Overall Evidence Quality
-
-#### Evidence Strength by Decision Component
-**Problem Definition:** [How well all evidence supports your problem understanding]
-- Strongest Supporting Evidence: [Which evidence type most strongly supports problem definition]
-- Evidence Quality: [High/Medium/Low]
-
-**Solution Design:** [How well all evidence supports your solution approach]
-- Strongest Supporting Evidence: [Which evidence type most strongly supports solution design]
-- Evidence Quality: [High/Medium/Low]
-
-**Implementation Approach:** [How well all evidence supports your implementation plan]
-- Strongest Supporting Evidence: [Which evidence type most strongly supports implementation approach]
-- Evidence Quality: [High/Medium/Low]
-
-**Success Prediction:** [How well all evidence supports predictions about success]
-- Strongest Supporting Evidence: [Which evidence type most strongly supports success predictions]
-- Evidence Quality: [High/Medium/Low]
-
-#### Evidence-Based Confidence Assessment
-**Overall Confidence in Decision:** [High/Medium/Low]
-
-**High Confidence Areas:** [Decision aspects where evidence is strong and convergent]
-**Medium Confidence Areas:** [Decision aspects where evidence is moderate or somewhat mixed]
-**Low Confidence Areas:** [Decision aspects where evidence is weak or highly divergent]
-
-### Risk Assessment Based on Evidence
-
-#### Risks with Strong Evidence Support
-**Risk 1:** [Risk that multiple evidence types consistently identify]
-- **Likelihood:** [High/Medium/Low based on evidence]
-- **Impact:** [High/Medium/Low based on evidence]
-- **Mitigation Strategy:** [How you'll address this evidence-supported risk]
-
-#### Risks with Weak Evidence Support
-**Risk:** [Risk that only one type of evidence suggests or that evidence is mixed on]
-- **Evidence Uncertainty:** [Why evidence doesn't clearly support this risk]
-- **Approach:** [How you'll handle this uncertain risk]
-
-## Evidence-Based Recommendations
-
-### Recommendation 1: [Primary recommendation based on integrated evidence]
-**Supporting Evidence Types:** [Which evidence types support this recommendation]
-**Confidence Level:** [High/Medium/Low]
-**Implementation Priority:** [High/Medium/Low]
-
-**Evidence Basis:**
-- **Scientific Support:** [How research supports this recommendation]
-- **Practitioner Support:** [How practitioner experience supports this recommendation]  
-- **Organizational Support:** [How organizational data supports this recommendation]
-- **Stakeholder Support:** [How stakeholder input supports this recommendation]
-
-### Recommendation 2: [Second recommendation based on integrated evidence]
-[Follow same structure as Recommendation 1]
-
-### Recommendation 3: [Third recommendation based on integrated evidence]
-[Follow same structure as Recommendation 1]
-
-## Evidence Limitations and Uncertainties
-
-### Key Limitations Affecting Recommendations
-[The most important limitations in your evidence base that affect your recommendations]
-
-### Uncertainties Requiring Monitoring
-[Things you'll need to track during implementation because evidence is uncertain]
-
-### Future Evidence Needs
-[Additional evidence you should collect during or after implementation]
+Strong convergence across 6 independent studies with large samples (57,000+ respondents). Evidence is recent (2022-2025), methodologically rigorous, and directly applicable to our context. CAT assessments rate top studies as A/Excellent quality.
 
 ---
-INSTRUCTIONS:
-1. Look for patterns where different evidence types support similar conclusions
-2. Pay special attention to disagreements between evidence types
-3. Use evidence integration to refine both your problem understanding and solution design
-4. Be honest about where evidence is strong vs. weak
-5. Make recommendations that are proportional to the strength of supporting evidence
+
+## PRACTITIONER EVIDENCE SUMMARY
+
+### Key Insight 1: Manager Training ROI is 2.5x Higher Retention
+**Insight:** Organizations investing $1,000-3,000 per manager in coaching-based leadership training achieve 2.5x better retention of millennials/Gen Z. Weekly one-on-ones and continuous feedback systems show 59% higher engagement.
+
+- **Source Credibility:** VERY HIGH
+  - Gallup practitioners: 15+ years consulting, thousands of organizations
+  - Harvard Business Review publication validates practitioner insights
+  - Cross-validated by HR Executive Magazine and SHRM best practices
+  
+- **Context Similarity:** HIGH
+  - Applicable across industries and organization sizes
+  - Fortune 500 and mid-market implementations documented
+  - Similar workforce demographics to our organization
+  
+- **Implementation Detail:** HIGH
+  - Specific training curriculum outlined (20-40 hours)
+  - Weekly one-on-one structure provided (15-20 min check-ins)
+  - Cost ranges documented ($1,000-3,000 per manager)
+  - Timeline expectations clear (3-6 months to impact)
+
+### Key Insight 2: Development Investment Shows Fastest Time-to-Impact
+**Insight:** Organizations implementing personalized development plans within 30 days of hire reduce first-year turnover by 15-25%. HubSpot achieved 34% turnover reduction primarily through accelerated development pathways with $1,500-3,000 per employee annual learning budgets.
+
+- **Source Credibility:** HIGH
+  - Workforce.com case studies with verified results
+  - LinkedIn Talent Solutions data (830M member behaviors)
+  - SHRM best practice validation across member organizations
+  
+- **Context Similarity:** MEDIUM-HIGH
+  - Case study organizations are larger than us but similar professional services demographics
+  - Budget ranges align with our financial capacity
+  - Technology/learning platform recommendations actionable
+  
+- **Implementation Detail:** VERY HIGH
+  - Specific budget allocations provided per employee
+  - Development plan templates referenced (30/60/90 day structure)
+  - Learning platform vendors named (LinkedIn Learning, Udemy)
+  - Timeline: 0-6 months for quick wins, 6-18 months for sustained impact
+
+### Key Insight 3: Flexible Work Requires Manager Training to Succeed
+**Insight:** Organizations rolling out flexible work without manager training on hybrid team leadership experience 40% lower adoption and minimal retention impact. Successful implementations pair 2-3 day hybrid baseline with explicit manager capability building.
+
+- **Source Credibility:** MEDIUM-HIGH
+  - HR Executive Magazine practitioner surveys
+  - Forbes HR Council member insights (CHROs, VPs of People)
+  - Gartner HR research with 1,400+ HR leaders
+  
+- **Context Similarity:** MEDIUM
+  - Most documented implementations in larger organizations (Fortune 500)
+  - Less evidence from organizations our size (~1,000 employees)
+  - Industry variation: tech companies easier implementation than traditional
+  
+- **Implementation Detail:** MEDIUM
+  - General guidance provided but less specific than development tactics
+  - Core hours vs. flexible hours structure outlined
+  - Technology infrastructure requirements mentioned
+  - Warning: rushed rollout without preparation creates backlash
+
+**Overall Practitioner Evidence Strength:** MODERATE-HIGH
+
+Strong credibility from established HR practitioners and respected publications. Real organizational implementations documented with quantified results. High implementation detail for manager training and development pathways. Recommended weight: 25-30% in decision-making.
+
+---
+
+## ORGANIZATIONAL EVIDENCE SUMMARY
+
+### Key Data Point 1: 30% Turnover Costs $3.94M Annually, Problem Accelerating
+**Data Point:** 156 millennial/Gen Z voluntary departures over 12 months (23.4% annualized, worsening to 25.9% in Q3 2024) cost organization $3.94M in direct replacement expenses plus lost productivity. Problem has intensified 35% over past year.
+
+- **Data Quality:** HIGH
+  - Workday HRIS data: real-time, verified, regularly audited
+  - Finance partnership validates cost calculations
+  - Three-year historical trend shows consistent methodology
+  
+- **Trend Direction:** DECLINING (worsening)
+  - Q4 2023: 19.2% annualized → Q3 2024: 25.9% annualized
+  - 35% deterioration in 12 months indicates urgent intervention needed
+  - Trajectory suggests could reach 28-30% by mid-2025 without intervention
+  
+- **Decision Relevance:** CRITICAL
+  - Establishes financial urgency ($3.94M annual impact)
+  - Demonstrates problem severity (29% above industry benchmark)
+  - Accelerating trend justifies immediate action vs. watch-and-wait
+
+### Key Data Point 2: Median Tenure 18.3 Months = Losing Employees at Productivity Peak
+**Data Point:** Millennial/Gen Z employees depart after median 18.3 months, with 75% leaving within 24 months. This represents 45% faster departure than industry median (33.6 months) and occurs right when employees reach full productivity.
+
+- **Data Quality:** HIGH
+  - Clean Workday data: hire dates and termination dates verified fields
+  - No missing data, cross-referenced with exit interview timing
+  - Historical comparison shows 24% decrease over 2 years (concerning trend)
+  
+- **Trend Direction:** DECLINING (worsening)
+  - 2022: 24.1 months median → 2024: 18.3 months = 24% decrease
+  - Employees leaving earlier in tenure reduces organizational ROI
+  - Peak departures in 12-24 month window suggests "second year" problem
+  
+- **Decision Relevance:** VERY HIGH
+  - Timing insight reveals when interventions must occur (months 6-18)
+  - Suggests onboarding and early career development gaps
+  - 34% depart within first year = onboarding issue
+  - 41% depart in months 12-24 = career path issue
+
+### Key Data Point 3: 73% Exit Interviews Cite Career Advancement, 61% Manager Quality
+**Data Point:** Exit interview analysis reveals 73% cite limited career advancement as primary departure factor, and 61% express manager quality concerns. Engagement scores for ages 25-40 average 64/100 (7 points below organizational average).
+
+- **Data Quality:** MEDIUM
+  - 68% exit interview completion rate (good but not complete)
+  - Social desirability bias likely softens criticism
+  - Validated against engagement survey showing consistent themes
+  
+- **Trend Direction:** STABLE (consistently cited over 3 years)
+  - Career advancement consistently #1 reason (70-75% range)
+  - Manager quality consistently #2 (58-63% range)
+  - Stability suggests systemic issues, not temporary factors
+  
+- **Decision Relevance:** CRITICAL
+  - Directly identifies root causes requiring intervention
+  - Validates scientific evidence (career development #1, manager quality #2)
+  - Prioritizes solution components: development pathways and manager training
+
+**Overall Organizational Evidence Strength:** MEDIUM-HIGH
+
+Strong quantitative data from reliable HRIS systems. Clear financial impact documented. Trend analysis shows problem worsening, creating urgency. Recommended weight: 20-25% in decision-making.
+
+---
+
+## STAKEHOLDER EVIDENCE SUMMARY
+
+### Key Stakeholder Insight 1: 89% Problem Recognition, 83% Support Solutions
+**Insight:** Strong stakeholder consensus that retention is critical problem (89% recognize issue) with broad support for proposed interventions (83% support overall, with 84% viewing flexible work as feasible, 76% supporting feedback systems, 78% endorsing development pathways).
+
+- **Representative Level:** HIGH
+  - 412 stakeholders engaged (62% response rate)
+  - Internal stakeholder representation strong across all groups
+  - Employee sample (n=287) demographically aligned with population
+  
+- **Bias Assessment:** LOW-MEDIUM
+  - High-performer slight over-representation in employee sample
+  - Voluntary participation may select more engaged employees
+  - Leadership/manager high response rates reduce selection bias
+  
+- **Implementation Implication:** VERY POSITIVE
+  - Strong stakeholder buy-in reduces resistance risk
+  - Consensus on problem creates urgency and accountability
+  - Solution support suggests smooth implementation feasible
+  - Must maintain momentum with visible progress
+
+### Key Stakeholder Insight 2: Manager Workload #1 Implementation Concern (64%)
+**Insight:** While managers strongly support retention initiatives (77% high priority), 64% express concern about implementation adding to already-stretched workload. Managers request explicit support, not just mandates.
+
+- **Representative Level:** MEDIUM-HIGH
+  - 71 managers participated (70% response rate)
+  - Represents 17% of sample (slightly under 20% target)
+  - Concern echoed in 5 focus groups and 8 manager interviews
+  
+- **Bias Assessment:** MEDIUM
+  - Workload concern may be amplified by current high-turnover stress
+  - Some managers may resist change disguised as capacity concern
+  - However, legitimate concern given current recruiting burden
+  
+- **Implementation Implication:** CRITICAL
+  - Manager training and support must be priority (not afterthought)
+  - Need to emphasize retention REDUCES workload long-term (less recruiting)
+  - Provide structured templates/tools to reduce perceived burden
+  - Recognize retention efforts in performance evaluations
+
+### Key Stakeholder Insight 3: Career Development Ranked #1 Priority (78%)
+**Insight:** When asked to rank retention priorities, 78% of employees placed career development #1, followed by manager quality (71%) and flexible work (69%). This ranking held consistently across all demographics.
+
+- **Representative Level:** VERY HIGH
+  - Consistent across all stakeholder groups surveyed
+  - No significant demographic variation (universal priority)
+  - Validated through surveys (n=348), interviews (n=32), focus groups (n=24)
+  
+- **Bias Assessment:** LOW
+  - Ranking exercise forces prioritization vs. agreeing with all options
+  - Consistency across methods suggests genuine priority
+  - Aligns with exit interview data (73% cite limited advancement)
+  
+- **Implementation Implication:** CLEAR PRIORITIZATION
+  - Development pathways must be Phase 1 priority (Months 1-3)
+  - Manager training on coaching/development must precede other initiatives
+  - Budget allocation should prioritize learning platforms and development plans
+
+**Overall Stakeholder Evidence Strength:** MEDIUM-HIGH
+
+Strong internal stakeholder engagement (62% response, 412 participants) with representative samples. High problem recognition and solution support create favorable implementation conditions. Recommended weight: 15-20% in decision-making.
+
+================================================================================
+END OF EVIDENCE SUMMARY
+================================================================================
+
+**Note:** This synthesis integrates findings from:
+- 6 scientific studies (57,000+ respondents)
+- 8 practitioner sources with real implementations
+- Comprehensive organizational data ($3.94M cost, 30% turnover)
+- 412 stakeholder participants across surveys, interviews, and focus groups
+
+**Overall Assessment:** Evidence strongly supports implementing career development pathways and manager training as immediate priorities, with flexible work as complementary intervention. Confidence level: MODERATE-HIGH (7/10) with very high confidence in problem definition and solution direction.
