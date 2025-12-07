@@ -173,14 +173,22 @@
 
         /* === FLOWCHART STYLING === */
         .flowchart-step {
-            background: #8B4513; /* Brown background */
-            color: #FFB6C1; /* Pink text */
-            padding: 15px 25px;
-            border-radius: 25px;
-            margin: 15px 0;
+            background: linear-gradient(135deg, var(--gpb-brown), var(--gpb-dark-brown));
+            color: var(--gpb-pink);
+            padding: 20px 30px;
+            border-radius: 15px;
+            margin: 20px 0;
             font-weight: bold;
             text-align: center;
-            box-shadow: 0 4px 15px rgba(139, 69, 19, 0.3);
+            box-shadow: var(--shadow-md);
+            font-size: 1.1em;
+            border: 2px solid var(--gpb-pink);
+            transition: all 0.3s ease;
+        }
+
+        .flowchart-step:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-lg);
         }
 
         .decision-diamond {
@@ -490,12 +498,26 @@
 
         .content-file-preview {
             border: 2px solid var(--gpb-pink);
-            border-radius: var(--border-radius);
+            border-radius: 12px;
             padding: 20px;
             margin: 15px 0;
             transition: all var(--transition-speed);
             cursor: pointer;
             background: white;
+            box-shadow: var(--shadow-sm);
+            position: relative;
+        }
+
+        .content-file-preview::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 60px;
+            height: 60px;
+            background: var(--secondary-gradient);
+            border-radius: 0 12px 0 50%;
+            opacity: 0.1;
         }
 
         .content-file-preview:hover {
@@ -511,6 +533,9 @@
             font-family: 'Segoe UI', sans-serif;
             font-weight: 600;
             font-size: 1.1em;
+            display: flex;
+            align-items: center;
+            gap: 8px;
         }
 
         .content-file-preview pre {
@@ -520,16 +545,19 @@
             font-size: 0.9em;
             line-height: 1.6;
             overflow-x: auto;
+            border: 1px solid #e9ecef;
         }
 
         .edit-notice {
-            background: #fff3cd;
-            border: 1px solid #ffeaa7;
-            color: #856404;
-            padding: 10px;
-            border-radius: 5px;
+            background: linear-gradient(135deg, #fff3cd, #ffeaa7);
+            border: 2px solid var(--gpb-pink);
+            color: var(--gpb-brown);
+            padding: 10px 15px;
+            border-radius: 8px;
             margin: 10px 0;
-            font-size: 0.8em;
+            font-size: 0.85em;
+            font-weight: 600;
+            display: inline-block;
         }
 
         .evidence-type {
@@ -546,10 +574,12 @@
         .evidence-section {
             margin: 40px 0;
             padding: 30px;
-            border-left: 5px solid #ddd;
-            background: linear-gradient(to right, #fafafa, #ffffff);
+            border-left: 5px solid var(--gpb-brown);
+            background: linear-gradient(135deg, #fafafa 0%, #ffffff 100%);
             border-radius: 12px;
             box-shadow: var(--shadow-sm);
+            border: 2px solid var(--gpb-light-pink);
+            border-left-width: 5px;
         }
 
         .evidence-section h3 {
@@ -560,6 +590,7 @@
             display: inline-block;
             font-weight: 700;
             font-size: 1.2em;
+            box-shadow: var(--shadow-sm);
         }
 
         .evidence-section .content-file-preview {
@@ -642,15 +673,22 @@
         .btn {
             background: var(--secondary-gradient);
             color: var(--gpb-brown);
-            border: none;
-            padding: 10px 20px;
-            border-radius: var(--border-radius);
-            transition: var(--transition-speed);
+            border: 2px solid var(--gpb-pink);
+            padding: 12px 25px;
+            border-radius: 25px;
+            transition: all var(--transition-speed);
+            font-weight: 600;
+            cursor: pointer;
+            box-shadow: var(--shadow-sm);
+            font-size: 1em;
         }
 
         .btn:hover {
             background: var(--primary-gradient);
             color: var(--gpb-pink);
+            border-color: var(--gpb-brown);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
         }
 
         .milestone-tracker {
@@ -672,20 +710,22 @@
         .checklist {
             list-style: none;
             padding: 0;
+            margin: 15px 0;
         }
 
         .checklist li {
-            padding: 8px 0;
-            color: #555;
-            line-height: 1.5;
+            padding: 12px 0;
+            color: var(--gpb-brown);
+            line-height: 1.6;
+            font-weight: 500;
         }
 
         .checklist li:before {
             content: "✓ ";
             color: var(--gpb-brown);
             font-weight: bold;
-            font-size: 1.2em;
-            margin-right: 5px;
+            font-size: 1.3em;
+            margin-right: 8px;
         }
 
         /* Links */
@@ -848,8 +888,11 @@
                     <h2>🎯 Problem & Solution Framework</h2>
                     <p><strong>Following Module 2 Flowchart:</strong> Define the problem AND identify the preferred solution before collecting evidence.</p>
                     
-                    <div class="milestone-tracker">
-                        <h4>📋 Milestone 1 Checklist (Due: Week 3)</h4>
+                    <div class="viz-card">
+                        <div class="viz-header">
+                            <span class="viz-icon">📋</span>
+                            <h4 style="margin: 0; color: var(--gpb-brown);">Milestone 1 Checklist (Due: Week 3)</h4>
+                        </div>
                         <ul class="checklist">
                             <li>GitHub repository created and dashboard running</li>
                             <li>Problem Definition completed using frameworks</li>
@@ -1007,12 +1050,15 @@ How will you know if your evidence-based solution worked?</pre>
                         </div>
                     </div>
 
-                    <div style="background: #f8f9fa; padding: 20px; border-radius: 10px; margin: 20px 0;">
-                        <h4>🎯 Evidence Collection Goals:</h4>
-                        <ul>
-                            <li><strong>For Step 2:</strong> What evidence supports our assumed problem?</li>
-                            <li><strong>For Step 4:</strong> What evidence supports our preferred solution?</li>
-                        </ul>
+                    <div class="info-box" style="margin: 25px 0;">
+                        <div class="info-box-icon">🎯</div>
+                        <div class="info-box-content">
+                            <h4 style="margin: 0 0 10px 0; color: var(--gpb-brown);">Evidence Collection Goals</h4>
+                            <ul style="margin: 10px 0 0 20px; color: var(--gpb-brown);">
+                                <li><strong>For Step 2:</strong> What evidence supports our assumed problem?</li>
+                                <li><strong>For Step 4:</strong> What evidence supports our preferred solution?</li>
+                            </ul>
+                        </div>
                     </div>
 
                     <!-- Scientific Evidence Section -->
@@ -1304,8 +1350,11 @@ PUBLIC SOURCE CITATIONS (validating all findings):
                     <h2>⚖️ Evidence Aggregation</h2>
                     <p><strong>Synthesis Process:</strong> Weigh and combine evidence from multiple sources to form conclusions.</p>
 
-                    <div class="milestone-tracker">
-                        <h4>📋 Milestone 4 Checkpoint (Week 12)</h4>
+                    <div class="viz-card">
+                        <div class="viz-header">
+                            <span class="viz-icon">📋</span>
+                            <h4 style="margin: 0; color: var(--gpb-brown);">Milestone 4 Checkpoint (Week 12)</h4>
+                        </div>
                         <ul class="checklist">
                             <li>Evidence synthesis across all four types completed</li>
                             <li>Solution design based on evidence analysis</li>
@@ -1341,8 +1390,11 @@ Weight the evidence and form recommendations.</pre>
                     <h2>📊 Assessment</h2>
                     <p><strong>Continuous Improvement:</strong> Evaluate results and refine the approach.</p>
 
-                    <div class="milestone-tracker">
-                        <h4>📋 Final Submission Checklist (Week 16)</h4>
+                    <div class="viz-card">
+                        <div class="viz-header">
+                            <span class="viz-icon">📋</span>
+                            <h4 style="margin: 0; color: var(--gpb-brown);">Final Submission Checklist (Week 16)</h4>
+                        </div>
                         <ul class="checklist">
                             <li>Assessment framework completed</li>
                             <li>Lessons learned documented</li>
@@ -1358,12 +1410,13 @@ Weight the evidence and form recommendations.</pre>
                         <pre>[Evaluate the effectiveness of your EBM process and solution]</pre>
                     </div>
 
-                    <div style="text-align: center; margin-top: 30px;">
-                        <h3>🎉 EBM Cycle Complete!</h3>
-                        <p>Congratulations! You've built a professional Evidence-Based Management dashboard.</p>
-                        <div>
-                            <button class="btn" onclick="window.open('PROJECT_TRACKER.md')">📊 View Project Tracker</button>
-                            <button class="btn" onclick="showTab(1)">↻ Review Complete Process</button>
+                    <div class="viz-card" style="text-align: center; margin-top: 40px; padding: 40px;">
+                        <span style="font-size: 4em; display: block; margin-bottom: 20px;">🎉</span>
+                        <h3 style="color: var(--gpb-brown); margin-bottom: 15px; font-size: 2em;">EBM Cycle Complete!</h3>
+                        <p style="color: var(--gpb-light-brown); font-size: 1.1em; margin-bottom: 30px;">Congratulations! You've built a professional Evidence-Based Management dashboard.</p>
+                        <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
+                            <button class="btn" onclick="window.open('PROJECT_TRACKER.md')" style="font-size: 1em; padding: 15px 30px;">📊 View Project Tracker</button>
+                            <button class="btn" onclick="showTab(1)" style="font-size: 1em; padding: 15px 30px;">↻ Review Complete Process</button>
                         </div>
                     </div>
                 </div>
